@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../musicmanager/musicmanager_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../musicmanager/musicmanager_manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../musicmanager/musicmanager_manager/musicmanager_manager_mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../musicmanager/musicmanager_manager/musicmanager_manager_pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../musicmanager/musicmanager_manager/musicmanager_manager_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../musicmanager/musicmanager_manager/musicmanager_manager_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../musicmanager/musicmanager_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../musicmanager/musicmanager_redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../musicmanager/musicmanager_rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../musicmanager/musicmanager_search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../musicmanager/musicmanager_sso" charset="UTF-8" />
+  </component>
+</project>
