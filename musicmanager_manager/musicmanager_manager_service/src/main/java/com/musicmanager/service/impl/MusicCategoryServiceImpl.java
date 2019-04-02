@@ -29,11 +29,11 @@ public class MusicCategoryServiceImpl implements MusicCategoryService {
         MusicCategoryExample musicCategoryExample = new MusicCategoryExample();
         MusicCategoryExample.Criteria criteria = musicCategoryExample.createCriteria();
         criteria.andParentIdEqualTo(parentid);
-        List<MusicCategory> musicCategoryList = musicCategoryMapper.selectByExample(musicCategoryExample);
+        List<MusicCategory> musicCategoryLiss = musicCategoryMapper.selectByExample(musicCategoryExample);
 
-        List<EasyUITree> easyUITrees = new ArrayList<>(musicCategoryList.size());
+        List<EasyUITree> easyUITrees = new ArrayList<>(musicCategoryLiss.size());
 
-        for (MusicCategory musicCategory:musicCategoryList) {
+        for (MusicCategory musicCategory:musicCategoryLiss) {
 
             EasyUITree easyuiTree = new EasyUITree();
 
