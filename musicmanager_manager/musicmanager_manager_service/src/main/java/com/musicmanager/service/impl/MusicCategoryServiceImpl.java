@@ -11,8 +11,6 @@ import pojo.EasyUITree;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 /**
  * Create by EGo1ST on 2019/4/1.
  * 说明：
@@ -36,7 +34,6 @@ public class MusicCategoryServiceImpl implements MusicCategoryService {
         for (MusicCategory musicCategory:musicCategoryList) {
 
             EasyUITree easyuiTree = new EasyUITree();
-
             easyuiTree.setId(musicCategory.getId());
             easyuiTree.setText(musicCategory.getName());
             easyuiTree.setState(musicCategory.getParentId()==0?"closed":"open");
