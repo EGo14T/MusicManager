@@ -29,8 +29,8 @@ public class MusicCategoryController {
      */
     @RequestMapping("/list")
     @ResponseBody
-    public List<EasyUITree> getMusicCategoryByParentId(@RequestParam(value = "id", defaultValue = "0") Short
-                                                               parentId) {
+    public List<EasyUITree> getMusicCategoryByParentId(@RequestParam(value = "id", defaultValue = "0")
+                                                                   Short parentId) {
         List<EasyUITree> easyUITrees = musicCategoryService.findMusicCategoryListByParentId(parentId);
         return easyUITrees;
 
