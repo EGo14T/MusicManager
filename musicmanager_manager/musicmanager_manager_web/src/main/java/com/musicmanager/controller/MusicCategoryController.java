@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import pojo.EasyUITree;
+import pojo.ResponseJsonResult;
 
 import java.util.List;
 
@@ -34,8 +35,16 @@ public class MusicCategoryController {
         List<EasyUITree> easyUITrees = musicCategoryService.findMusicCategoryListByParentId(parentId);
         return easyUITrees;
 
-
     }
 
+    /**
+     * 添加分类
+     */
 
+    @RequestMapping("/add")
+    @ResponseBody
+    public ResponseJsonResult addCategory(Short parentId,String name){
+        ResponseJsonResult responseJsonResult = musicCategoryService.addCategory(parentId,name);
+        return responseJsonResult;
+    }
 }

@@ -17,7 +17,7 @@
 <%--右键菜单--%>
 <div id="mm" class="easyui-menu" style="width:120px;">
     <div onclick="append()" data-options="iconCls:'icon-add'">添加</div>
-    <div onclick="update()" data-options="iconCls:'icon-remove'">修改</div>
+    <div onclick="rename()" data-options="iconCls:'icon-remove'">修改</div>
     <div onclick="remove()" data-options="iconCls:'icon-remove'">删除</div>
 </div>
 
@@ -37,9 +37,66 @@
                     left: e.pageX,
                     top: e.pageY
                 });
+            },
+
+            onAfterEdit:function (node) {
+
+                var _tree = $('#musicCategory');
+
+
+                if(node.id == 0){
+                    $.post("/music_category/add",{parentId:node.id,name:node.text},function (data) {
+
+                        if (data.status==200){
+                            _tree.tree('update', {
+                                target: node.target,
+                                id : data.msg
+                            });
+                        }else{
+                            $.messager.alert("添加分类失败");
+                        }
+                    })
+                }
             }
         });
     });
+
+//添加的方法
+    function append(){
+
+        var tree = $('#musicCategory');
+        var node = tree.tree('getSelected');
+
+        tree.tree('append', {
+            parent: (node?node.target:null),
+            data: [{
+                id : 0,
+                parentId : node.id,
+                text : '新建分类'
+            }]
+        });
+
+        var _node = tree.tree("find",0);
+        tree.tree("select",_node.target).tree("beginEdit",_node.target);
+    };
+
+    function rename() {
+        var tree = $('#musicCategory');
+        var node = tree.tree('getSelected');
+
+        tree.tree("beginEdit",node.target);
+    };
+
+    function remove() {
+        var tree = $('#musicCategory');
+        var node = tree.tree('getSelected');
+
+        tree.tree("remove",node.target);
+    };
+
+
+
+
 </script>
 </body>
 </html>

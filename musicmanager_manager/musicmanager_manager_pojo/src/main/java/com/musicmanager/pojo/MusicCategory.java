@@ -5,11 +5,11 @@ public class MusicCategory {
 
     private String name;
 
-    private Short sorderorder;
+    private Short sorderorder = 999;
 
-    private Byte status;
+    private Byte status = 0;
 
-    private Short parentId;
+    private Short parentId = 0;
 
     public Short getId() {
         return id;

@@ -7,6 +7,7 @@ import com.musicmanager.service.MusicCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pojo.EasyUITree;
+import pojo.ResponseJsonResult;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,5 +44,19 @@ public class MusicCategoryServiceImpl implements MusicCategoryService {
         }
 
         return easyUITrees;
+    }
+
+    @Override
+    public ResponseJsonResult addCategory(Short parentid, String name) {
+        MusicCategory musicCategory = new MusicCategory();
+        musicCategory.setParentId(parentid);
+        musicCategory.setName(name);
+
+        musicCategoryMapper.insert(musicCategory);
+
+        ResponseJsonResult responseJsonResult = new ResponseJsonResult();
+        responseJsonResult.setMsg(musicCategory.getId()+"");
+
+        return responseJsonResult;
     }
 }
