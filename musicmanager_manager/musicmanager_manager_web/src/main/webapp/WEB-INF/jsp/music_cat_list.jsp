@@ -45,7 +45,7 @@
 
 
                 if(node.id == 0){
-                    $.post("/music_category/add",{parentId:node.id,name:node.text},function (data) {
+                    $.post("/music_category/add",{parentId:node.parentId,name:node.text},function (data) {
 
                         if (data.status==200){
                             _tree.tree('update', {
