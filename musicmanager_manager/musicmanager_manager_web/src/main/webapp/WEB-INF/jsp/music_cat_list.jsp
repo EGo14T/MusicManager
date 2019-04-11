@@ -72,7 +72,7 @@
             data: [{
                 id : 0,
                 parentId : node.id,
-                text : '新建分类'
+                text : ''
             }]
         });
 
