@@ -47,4 +47,16 @@ public class MusicCategoryController {
         ResponseJsonResult responseJsonResult = musicCategoryService.addCategory(parentId,name);
         return responseJsonResult;
     }
+
+    /**
+     * 修改名称
+     */
+
+    @RequestMapping("/rename")
+    @ResponseBody
+    public ResponseJsonResult updateCategory(Short id,String name){
+        ResponseJsonResult responseJsonResult = musicCategoryService.updateCategory(id,name);
+        return responseJsonResult;
+    }
+
 }

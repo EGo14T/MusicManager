@@ -56,6 +56,19 @@
                             $.messager.alert("添加分类失败");
                         }
                     })
+                }else{
+                    $.post("music_category/rename",{parentId:node.id,name:node.text},function(data){
+
+                        if (data.status==200){
+                            _tree.tree('update', {
+                                target: node.target,
+                                id : data.msg
+                            });
+                        }else{
+                            $.messager.alert("修改名称失败");
+                        }
+
+                    })
                 }
             }
         });
@@ -85,8 +98,11 @@
         var node = tree.tree('getSelected');
 
         tree.tree("beginEdit",node.target);
+
     };
 
+
+//重命名的方法
     function remove() {
         var tree = $('#musicCategory');
         var node = tree.tree('getSelected');

@@ -47,12 +47,26 @@ public class MusicCategoryServiceImpl implements MusicCategoryService {
     }
 
     @Override
-    public ResponseJsonResult addCategory(Short parentid, String name) {
+    public ResponseJsonResult addCategory(Short parentId, String name) {
         MusicCategory musicCategory = new MusicCategory();
-        musicCategory.setParentId(parentid);
+        musicCategory.setParentId(parentId);
         musicCategory.setName(name);
 
         musicCategoryMapper.insert(musicCategory);
+
+        ResponseJsonResult responseJsonResult = new ResponseJsonResult();
+        responseJsonResult.setMsg(musicCategory.getId()+"");
+
+        return responseJsonResult;
+    }
+
+    @Override
+    public ResponseJsonResult updateCategory(Short parentId, String name) {
+        MusicCategory musicCategory = new MusicCategory();
+        musicCategory.setParentId(parentId);
+        musicCategory.setName(name);
+
+        musicCategoryMapper.updateByPrimaryKeySelective(musicCategory);
 
         ResponseJsonResult responseJsonResult = new ResponseJsonResult();
         responseJsonResult.setMsg(musicCategory.getId()+"");
