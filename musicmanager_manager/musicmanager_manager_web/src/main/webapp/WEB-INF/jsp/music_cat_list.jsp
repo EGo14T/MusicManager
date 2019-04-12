@@ -57,7 +57,7 @@
                         }
                     })
                 }else{
-                    $.post("music_category/rename",{parentId:node.id,name:node.text},function(data){
+                    $.post("music_category/rename",{id:node.id,parentId:node.attributes,name:node.text},function(data){
 
                         if (data.status==200){
                             _tree.tree('update', {

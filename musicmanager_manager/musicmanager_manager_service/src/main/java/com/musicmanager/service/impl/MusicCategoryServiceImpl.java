@@ -38,7 +38,7 @@ public class MusicCategoryServiceImpl implements MusicCategoryService {
             easyuiTree.setId(musicCategory.getId());
             easyuiTree.setText(musicCategory.getName());
             easyuiTree.setState(musicCategory.getParentId()==0?"closed":"open");
-            //easyuiTree.setAttributes(musicCategory.getParentId()+"");
+            easyuiTree.setAttributes(musicCategory.getParentId()+"");
 
             easyUITrees.add(easyuiTree);
         }
@@ -61,15 +61,21 @@ public class MusicCategoryServiceImpl implements MusicCategoryService {
     }
 
     @Override
-    public ResponseJsonResult updateCategory(Short parentId, String name) {
+    public ResponseJsonResult updateCategory(Short id,Short parentId,String name) {
         MusicCategory musicCategory = new MusicCategory();
         musicCategory.setParentId(parentId);
         musicCategory.setName(name);
 
-        musicCategoryMapper.updateByPrimaryKeySelective(musicCategory);
+
+        MusicCategoryExample musicCategoryExample = new MusicCategoryExample();
+        MusicCategoryExample.Criteria criteria = musicCategoryExample.createCriteria();
+        criteria.andIdEqualTo(id);
+
+        musicCategoryMapper.updateByExampleSelective(musicCategory,musicCategoryExample);
 
         ResponseJsonResult responseJsonResult = new ResponseJsonResult();
-        responseJsonResult.setMsg(musicCategory.getId()+"");
+        responseJsonResult.setStatus(200);
+        responseJsonResult.setMsg("success");
 
         return responseJsonResult;
     }

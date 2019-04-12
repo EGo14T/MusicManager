@@ -54,8 +54,8 @@ public class MusicCategoryController {
 
     @RequestMapping("/rename")
     @ResponseBody
-    public ResponseJsonResult updateCategory(Short id,String name){
-        ResponseJsonResult responseJsonResult = musicCategoryService.updateCategory(id,name);
+    public ResponseJsonResult updateCategory(Short id,Short parentId,String name){
+        ResponseJsonResult responseJsonResult = musicCategoryService.updateCategory(id,parentId,name);
         return responseJsonResult;
     }
 

@@ -6,6 +6,20 @@ package pojo;
  */
 public class EasyUITree {
 
+    private int id;
+    private String text;
+    private String state;
+
+    public String getAttributes() {
+        return attributes;
+    }
+
+    public void setAttributes(String attributes) {
+        this.attributes = attributes;
+    }
+
+    private String attributes;
+
     public int getId() {
         return id;
     }
@@ -30,7 +44,5 @@ public class EasyUITree {
         this.state = state;
     }
 
-    private int id;
-    private String text;
-    private String state;
+
 }

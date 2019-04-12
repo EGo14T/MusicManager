@@ -12,5 +12,5 @@ public interface MusicCategoryService {
 
     ResponseJsonResult addCategory(Short parentid,String name);
 
-    ResponseJsonResult updateCategory(Short parentId, String name);
+    ResponseJsonResult updateCategory(Short id,Short parentId,String name);
 }
