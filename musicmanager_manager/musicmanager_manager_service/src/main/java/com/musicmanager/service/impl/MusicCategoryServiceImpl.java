@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * Create by EGo1ST on 2019/4/1.
- * 说明：
+ * 说明：音乐列表功能实现类
  */
 @Service
 public class MusicCategoryServiceImpl implements MusicCategoryService {
@@ -23,11 +23,11 @@ public class MusicCategoryServiceImpl implements MusicCategoryService {
     private MusicCategoryMapper musicCategoryMapper;
 
     @Override
-    public List<EasyUITree> findMusicCategoryListByParentId(Short parentid) {
+    public List<EasyUITree> findMusicCategoryListByParentId(Short parentId) {
 
         MusicCategoryExample musicCategoryExample = new MusicCategoryExample();
         MusicCategoryExample.Criteria criteria = musicCategoryExample.createCriteria();
-        criteria.andParentIdEqualTo(parentid);
+        criteria.andParentIdEqualTo(parentId);
         List<MusicCategory> musicCategoryList = musicCategoryMapper.selectByExample(musicCategoryExample);
 
         List<EasyUITree> easyUITrees = new ArrayList<>(musicCategoryList.size());

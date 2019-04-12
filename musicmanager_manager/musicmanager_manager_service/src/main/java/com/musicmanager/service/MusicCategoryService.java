@@ -10,7 +10,7 @@ public interface MusicCategoryService {
 
     List<EasyUITree> findMusicCategoryListByParentId(Short parentid);
 
-    ResponseJsonResult addCategory(Short parentid,String name);
+    ResponseJsonResult addCategory(Short parentId,String name);
 
     ResponseJsonResult updateCategory(Short id,Short parentId,String name);
 }
