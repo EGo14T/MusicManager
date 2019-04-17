@@ -11,20 +11,11 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="/css/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="/css/themes/icon.css">
-    <link rel="stylesheet" href="fonts/iconfont.css">
-    <link rel="stylesheet" href="css/audio.css">
     <script type="text/javascript" src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
     <script type="text/javascript" src="/js/ajaxFileUpload.js"></script>
 </head>
 <body class="easyui-layout">
-
-<div data-options="region:'north',split:true" style="height:100px;">
-
-</div>
-
-
-
 <div data-options="region:'west',title:'菜单',split:true,minWidth:180" style="width:100px;">
 
     <ul id="tt" class="easyui-tree">
@@ -53,8 +44,6 @@
     </div>
 
 </div>
-
-
 
 <script>
     $('#tt').tree({
