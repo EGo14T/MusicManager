@@ -5,7 +5,7 @@
 
 1. Spring
 2. SpringMVC
-3. MyBitis
+3. MyBatis
 4. MySQL
 5. EasyUI
 6. JQuery
