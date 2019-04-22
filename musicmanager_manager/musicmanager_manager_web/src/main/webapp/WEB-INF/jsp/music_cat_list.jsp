@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Title</title>
@@ -13,6 +14,7 @@
 <body>
 
 <ul id="musicCategory" class="easyui-tree"></ul>
+<audio src="/images/1.mp3" autoplay="autoplay" controls="controls"></audio>
 
 <%--右键菜单--%>
 <div id="mm" class="easyui-menu" style="width:120px;">
