@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE HTML>
+<html>
 <head>
     <title>音乐列表</title>
 </head>
@@ -18,9 +19,6 @@
         <th data-options="field:'code',width:100">Code</th>
         <th data-options="field:'name',width:100">Name</th>
         <th data-options="field:'price',width:100,align:'right'">Price</th>
-        <audio controls="controls" >
-            <source src="jsp/horse.ogg"/>
-        </audio>
 
     </tr>
     </thead>

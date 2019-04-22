@@ -15,7 +15,9 @@
     <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
     <script type="text/javascript" src="/js/ajaxFileUpload.js"></script>
 </head>
+
 <body class="easyui-layout">
+
 <div data-options="region:'north'" style="height:100px;">
 
 </div>
@@ -33,7 +35,6 @@
             <ul>
                 <li data-options="attributes:{'url':'music_list'}">音乐列表</li>
                 <li data-options="attributes:{'url':'music_add'}">音乐添加</li>
-                <li data-options="attributes:{'url':'horse'}">音乐添加</li>
             </ul>
         </li>
     </ul>
@@ -41,7 +42,7 @@
 </div>
 <div data-options="region:'center'," style="padding:5px;background:#eee;">
 
-    <div id="tabs" class="easyui-tabs">
+    <div id="tabs" class="easyui-tabs" showHeader="false">
         <div title="首页" style="padding:20px;display:none;">
 
         </div>
@@ -49,9 +50,17 @@
 
 </div>
 
-<div data-options="region:'south',split:true" style="height:100px;">
-
+<div data-options="region:'south',split:false" style="height:100px;">
+    <audio controls="controls" src="/images/1.mp3" autoplay="autoplay" controls=controls></audio>
 </div>
+
+
+
+
+
+
+
+
 
 <script>
     $('#tt').tree({
@@ -69,8 +78,6 @@
                 });
             }
         }
-
-
     });
 </script>
 </body>

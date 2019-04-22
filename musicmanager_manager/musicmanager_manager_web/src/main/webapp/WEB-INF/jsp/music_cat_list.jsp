@@ -14,7 +14,6 @@
 <body>
 
 <ul id="musicCategory" class="easyui-tree"></ul>
-<audio src="/images/1.mp3" autoplay="autoplay" controls="controls"></audio>
 
 <%--右键菜单--%>
 <div id="mm" class="easyui-menu" style="width:120px;">
@@ -40,6 +39,13 @@
                     top: e.pageY
                 });
             },
+
+            onDblClick:function(node){
+                alert("ssssssssssssss")
+
+            },
+
+
 
             onAfterEdit:function (node) {
 
