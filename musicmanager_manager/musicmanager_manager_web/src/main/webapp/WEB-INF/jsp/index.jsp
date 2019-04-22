@@ -16,6 +16,9 @@
     <script type="text/javascript" src="/js/ajaxFileUpload.js"></script>
 </head>
 <body class="easyui-layout">
+<div data-options="region:'north'" style="height:100px;">
+
+</div>
 <div data-options="region:'west',title:'菜单',split:true,minWidth:180" style="width:100px;">
 
     <ul id="tt" class="easyui-tree">
@@ -30,18 +33,23 @@
             <ul>
                 <li data-options="attributes:{'url':'music_list'}">音乐列表</li>
                 <li data-options="attributes:{'url':'music_add'}">音乐添加</li>
+                <li data-options="attributes:{'url':'horse'}">音乐添加</li>
             </ul>
         </li>
     </ul>
 
 </div>
-<div data-options="region:'center',title:''" style="padding:5px;background:#eee;">
+<div data-options="region:'center'," style="padding:5px;background:#eee;">
 
     <div id="tabs" class="easyui-tabs">
         <div title="首页" style="padding:20px;display:none;">
-            首页
+
         </div>
     </div>
+
+</div>
+
+<div data-options="region:'south',split:true" style="height:100px;">
 
 </div>
 
