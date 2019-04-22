@@ -22,6 +22,8 @@
     <div onclick="remove()" data-options="iconCls:'icon-remove'">删除</div>
 </div>
 
+<audio id="myaudio" src="images/1.mp3" controls="controls" ></audio>
+
 
 <script type="text/javascript">
     $(function () {
@@ -40,8 +42,12 @@
                 });
             },
 
-            onDblClick:function(node){
-                alert("ssssssssssssss")
+            onDblClick:function(e,node){
+                var tree = $('#musicCategory');
+                node = tree.tree('getSelected');
+                alert(node.id)
+                var x = document.getElementById("myaudio")
+                x.play()
 
             },
 
@@ -101,16 +107,16 @@
         tree.tree("select",_node.target).tree("beginEdit",_node.target);
     };
 
+    //重命名的方法
     function rename() {
         var tree = $('#musicCategory');
         var node = tree.tree('getSelected');
-
         tree.tree("beginEdit",node.target);
 
     };
 
 
-//重命名的方法
+
     function remove() {
         var tree = $('#musicCategory');
         var node = tree.tree('getSelected');
