@@ -10,6 +10,8 @@
 <html>
 <head>
     <title>音乐列表</title>
+
+
 </head>
 <body>
 <!--<table class="easyui-datagrid"
@@ -33,7 +35,9 @@
             url:'/music/list',
             singleSelect:true,
             fitColumns:true,
+            scrollbarSize:0,
             striped:true,
+
             columns:[[
                 {field:'id',title:'id',width:20},
                 {field:'name',title:'歌曲名称',width:100},
@@ -52,6 +56,8 @@
 
 
             },
+
+
         });
 
 
