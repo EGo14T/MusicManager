@@ -1,5 +1,7 @@
 package com.musicmanager.mapper;
 
+import com.musicmanager.pojo.Music;
+import com.musicmanager.pojo.MusicExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
