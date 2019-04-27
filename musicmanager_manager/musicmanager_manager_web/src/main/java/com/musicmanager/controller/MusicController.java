@@ -24,7 +24,7 @@ public class MusicController {
     @RequestMapping("/music/list")
     @ResponseBody
     public EasyGrid listMusic(@RequestParam(value = "page" , defaultValue = "1")int pages,@RequestParam(value =
-        "rows",defaultValue = "10")int rows){
+        "rows",defaultValue = "50")int rows){
 
             EasyGrid easyGrid = musicService.listMusic(pages, rows);
 

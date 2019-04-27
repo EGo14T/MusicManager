@@ -16,12 +16,12 @@
     <script type="text/javascript" src="/js/ajaxFileUpload.js"></script>
 </head>
 
-<body class="easyui-layout" onselectstart="return false">
+<body class="easyui-layout" onselectstart="return false" >
 
-<div data-options="region:'north'" style="height:100px;">
+<div data-options="region:'north'" style="height:100px;" border="false">
 
 </div>
-<div data-options="region:'west',title:'我的音乐',split:true,minWidth:180" style="width:100px;">
+<div data-options="region:'west',title:'我的音乐',split:true,minWidth:180" style="width:100px;" border="false">
 
     <ul id="tt" class="easyui-tree">
         <li>
@@ -40,7 +40,7 @@
     </ul>
 
 </div>
-<div data-options="region:'center'," style="padding:5px;background:#eee;">
+<div data-options="region:'center'," style="padding:5px;background:#eee;" border="false">
 
     <div id="tabs" class="easyui-tabs" showHeader="false">
         <div title="首页" style="padding:20px;display:none;">
@@ -50,7 +50,7 @@
 
 </div>
 
-<div data-options="region:'south',split:false" style="height:100px;">
+<div data-options="region:'south',split:false" style="height:100px;" border="false">
     <audio id="myaudio" src="" controls="controls"/>
 </div>
 

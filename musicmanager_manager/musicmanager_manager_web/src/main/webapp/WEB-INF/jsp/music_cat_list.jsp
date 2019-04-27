@@ -45,7 +45,7 @@
                 var x = document.getElementById("myaudio")
                 //alert("images/"+node.id+".mp3")
                 x.src = "images/"+node.id+".mp3"
-                alert(x.duration)
+                alert(node.id)
                 x.play()
 
             },

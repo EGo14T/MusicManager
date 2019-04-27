@@ -46,7 +46,7 @@
 
 
             columns:[[
-                {field:'id',title:'id',width:20},
+                {field:'id',title:'id',width:20,align:'center'},
                 {field:'name',title:'歌曲名称',width:100},
                 {field:'singer',title:'歌手',width:100},
                 {field:'album',title:'专辑',width:100},
