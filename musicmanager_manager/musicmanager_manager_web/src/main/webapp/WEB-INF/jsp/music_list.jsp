@@ -14,6 +14,7 @@
 
 </head>
 <body>
+<!--使用标签创建表格-->
 <!--<table class="easyui-datagrid"
        data-options="url:'/music/list',fitColumns:true,singleSelect:true,pageSize:5,pageList:[5,10,15,20]"pagination="true" rownumbers="true">
     <thead>
@@ -37,6 +38,12 @@
             fitColumns:true,
             scrollbarSize:0,
             striped:true,
+
+            //分页显示
+            // pagination:true,
+            // rownumbers:true,
+            // pageSize:5,pageList:[5,10,15,20],
+
 
             columns:[[
                 {field:'id',title:'id',width:20},
