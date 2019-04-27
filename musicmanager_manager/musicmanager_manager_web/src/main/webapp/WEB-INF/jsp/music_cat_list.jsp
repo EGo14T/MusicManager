@@ -22,9 +22,6 @@
     <div onclick="remove()" data-options="iconCls:'icon-remove'">删除</div>
 </div>
 
-<audio id="myaudio" src="images/1.mp3" controls="controls" ></audio>
-
-
 <script type="text/javascript">
     $(function () {
 
@@ -45,8 +42,9 @@
             onDblClick:function(e,node){
                 var tree = $('#musicCategory');
                 node = tree.tree('getSelected');
-                alert(node.id)
                 var x = document.getElementById("myaudio")
+                //alert("images/"+node.id+".mp3")
+                x.src = "images/"+node.id+".mp3"
                 x.play()
 
             },

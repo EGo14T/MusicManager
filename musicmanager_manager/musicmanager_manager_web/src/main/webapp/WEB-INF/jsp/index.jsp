@@ -51,7 +51,7 @@
 </div>
 
 <div data-options="region:'south',split:false" style="height:100px;">
-    <audio controls="controls" src="/images/1.mp3" autoplay="autoplay" controls=controls></audio>
+    <audio id="myaudio" src="" controls="controls"/>
 </div>
 
 
