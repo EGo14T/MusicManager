@@ -3,6 +3,9 @@ package com.musicmanager.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.musicmanager.mapper.MusicMapper;
+import com.musicmanager.pojo.Music;
+import com.musicmanager.pojo.MusicExample;
 import com.musicmanager.service.MusicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

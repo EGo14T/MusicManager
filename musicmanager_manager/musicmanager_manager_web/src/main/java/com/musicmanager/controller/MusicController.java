@@ -1,5 +1,6 @@
 package com.musicmanager.controller;
 
+import com.musicmanager.pojo.Music;
 import com.musicmanager.service.MusicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

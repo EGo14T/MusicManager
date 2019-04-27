@@ -1,6 +1,7 @@
 package com.musicmanager.service;
 
 
+import com.musicmanager.pojo.Music;
 import pojo.EasyGrid;
 import pojo.ResponseJsonResult;
 
@@ -10,4 +11,5 @@ import pojo.ResponseJsonResult;
 public interface MusicService {
     ResponseJsonResult saveMusic(Music music);
     EasyGrid listMusic(int pages,int rows);
+
 }
