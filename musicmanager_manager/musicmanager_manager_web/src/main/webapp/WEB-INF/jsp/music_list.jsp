@@ -50,17 +50,20 @@
                 {field:'name',title:'歌曲名称',width:100},
                 {field:'singer',title:'歌手',width:100},
                 {field:'album',title:'专辑',width:100},
-                {field:'length',title:'时长',width:100}
+                {field:'length',title:'时长',width:100,}
             ]],
 
             onDblClickRow: function(){
 
                 var row = $('#dg').datagrid('getSelected');      //获取选中行
-                var x = document.getElementById("myaudio")
+                var x = document.getElementById("myaudio");
                 //alert("images/"+node.id+".mp3")
                 x.src = "images/"+row.id+".mp3"
                 x.play()
-
+                var oAudio=document.getElementsByTagName('audio')[0];
+                oAudio.ondurationchange=function(){
+                    alert(oAudio.duration)
+                }
 
             },
 
