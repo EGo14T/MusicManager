@@ -11,17 +11,21 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="/css/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/css/APlayer.min.css">
     <script type="text/javascript" src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
     <script type="text/javascript" src="/js/ajaxFileUpload.js"></script>
+    <script type="text/javascript" src="/js/APlayer.min.js"></script>
 </head>
 
 <body class="easyui-layout" onselectstart="return false" >
 
+<!--顶层布局-->
+
 <div data-options="region:'north'" style="height:100px;">
 
 </div>
-<div data-options="region:'west',title:'我的音乐',split:true,minWidth:180" style="width:100px;">
+<div data-options="region:'west',title:'我的音乐',collapsible:false" style="width:180px">
 
     <ul id="tt" class="easyui-tree">
         <li>
@@ -38,20 +42,20 @@
             </ul>
         </li>
     </ul>
-
 </div>
-<div data-options="region:'center'," style="padding:5px;background:#eee;" border=0>
 
+
+<div data-options="region:'center'">
     <div id="tabs" class="easyui-tabs" showHeader="false">
-        <div title="首页" style="padding:20px;display:none;">
-
+        <div title="首页">
         </div>
     </div>
 
 </div>
 
-<div data-options="region:'south',split:false" style="height:100px;" border="false">
-    <audio id="myaudio" src="" controls="controls" preload="auto"/>
+<div data-options="region:'south',split:false" style="height:76px;" border="false">
+
+    <div id="player1" class="aplayer"></div>
 
 </div>
 
@@ -76,6 +80,23 @@
             }
         }
     });
+
+    var ap = new APlayer({
+        element: document.getElementById('player1'),
+        narrow: false,
+        autoplay: true,
+        showlrc: false,
+        theme: '#453f2b',
+        music: {
+            title:'欢迎使用昕音乐',
+            author:'' ,
+            url: "",
+            pic: ''
+        }
+    });
+    ap.init();
+
+
 </script>
 </body>
 </html>

@@ -31,6 +31,7 @@
 
 <table id="dg"></table>
 <script type="text/javascript">
+    var url1;
     $(function () {
         $('#dg').datagrid({
             url:'/music/list',
@@ -56,22 +57,33 @@
             onDblClickRow: function(){
 
                 var row = $('#dg').datagrid('getSelected');      //获取选中行
-                var x = document.getElementById("myaudio");
+                var ap = new APlayer({
+                    element: document.getElementById('player1'),
+                    narrow: false,
+                    autoplay: true,
+                    showlrc: false,
+                    music: {
+                        title: row.name,
+                        author: "",
+                        url: "images/"+row.id+".mp3",
+                        pic: ''
+                    }
+                });
                 //alert("images/"+node.id+".mp3")
-                x.src = "images/"+row.id+".mp3"
-                x.play()
-                var oAudio=document.getElementsByTagName('audio')[0];
-                oAudio.ondurationchange=function(){
-                    alert(oAudio.duration)
-                }
+                ap.url= "images/"+row.id+".mp3"
+                //x.music.url = "images/"+row.id+".mp3"
+                ap.play();
 
             },
+
 
 
         });
 
 
     });
+
+
 
 </script>
 </body>

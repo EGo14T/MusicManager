@@ -1944,16 +1944,16 @@
   border-collapse: separate;
 }
 .datagrid-row-alt {
-  background: #fafafa;
+  background: #f5f5f7;
 }
 .datagrid-row-over,
 .datagrid-header td.datagrid-header-over {
-  background: #eaf2ff;
+  background: #ebecee;
   color: #000000;
   cursor: default;
 }
 .datagrid-row-selected {
-  background: #ffe48d;
+  background: #e3e3e5;
   color: #000000;
 }
 .datagrid-row-editing .textbox,
