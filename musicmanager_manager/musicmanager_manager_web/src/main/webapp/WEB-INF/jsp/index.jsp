@@ -53,9 +53,8 @@
 
 </div>
 
-<div data-options="region:'south',split:false" style="height:76px;" border="false">
-
-    <div id="player1" class="aplayer"></div>
+<div data-options="region:'south',split:false" style="height:120px;" border="false">
+    <div id="player1" ></div>
 
 </div>
 
@@ -87,12 +86,16 @@
         autoplay: true,
         showlrc: false,
         theme: '#453f2b',
-        music: {
-            title:'欢迎使用昕音乐',
-            author:'' ,
-            url: "",
-            pic: ''
-        }
+        audio: [
+            {
+                name: '昕音乐',
+                artist: 'EGo1ST',
+                url: '',
+                cover: 'cover1.jpg',
+                lrc: 'lrc1.lrc',
+                theme: '#ebd0c2'
+            }
+        ]
     });
     ap.init();
 

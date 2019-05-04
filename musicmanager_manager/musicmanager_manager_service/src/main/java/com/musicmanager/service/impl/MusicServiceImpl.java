@@ -36,9 +36,6 @@ public class MusicServiceImpl implements MusicService {
         EasyGrid easyGrid = new EasyGrid();
         easyGrid.setTotal((int)pageInfo.getTotal());
         easyGrid.setRows(musicList);
-
-
-
         return easyGrid;
     }
 

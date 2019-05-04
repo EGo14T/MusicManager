@@ -31,7 +31,6 @@
 
 <table id="dg"></table>
 <script type="text/javascript">
-    var url1;
     $(function () {
         $('#dg').datagrid({
             url:'/music/list',
@@ -56,16 +55,19 @@
 
             onDblClickRow: function(){
 
-                var row = $('#dg').datagrid('getSelected');      //获取选中行
+                var row = $('#dg').datagrid('getSelected');
+                //获取选中行
+
                 var ap = new APlayer({
                     element: document.getElementById('player1'),
-                    narrow: false,
                     autoplay: true,
-                    showlrc: false,
-                    music: {
+                    lrcType:3,
+                    showlrc:true,
+                    audio: {
                         title: row.name,
-                        author: "",
+                        author: row.singer,
                         url: "images/"+row.id+".mp3",
+                        lrc: 'images/33.lrc',
                         pic: ''
                     }
                 });
