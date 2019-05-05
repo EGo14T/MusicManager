@@ -5,9 +5,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb3f32d3-a5a5-4ca3-bdea-986c3a3e5caf" name="默认的" comment="基于SSM框架的Java项目（IDEA）">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/musicmanager_common/src/main/java/pojo/MusicList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_common/target/classes/pojo/EasyGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_common/target/classes/pojo/EasyUITree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_common/target/classes/pojo/MusicList$AudioBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_common/target/classes/pojo/MusicList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_common/target/classes/pojo/ResponseJsonResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_common/target/musicmanager_common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/target/classes/com/musicmanager/mapper/MusicCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/target/classes/com/musicmanager/mapper/MusicCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/target/classes/com/musicmanager/mapper/MusicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/target/classes/com/musicmanager/mapper/MusicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/target/classes/com/musicmanager/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/target/classes/com/musicmanager/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/Music.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicCategoryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicCategoryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicCategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicCategoryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/target/classes/com/musicmanager/service/MusicCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/target/classes/com/musicmanager/service/MusicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/target/classes/com/musicmanager/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/target/classes/com/musicmanager/service/impl/MusicCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/target/classes/com/musicmanager/service/impl/MusicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/target/classes/com/musicmanager/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/FreeMarkerTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/ftl/hello.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/hi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/classes/com/musicmanager/controller/FreeMarkerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/classes/com/musicmanager/controller/MusicCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/classes/com/musicmanager/controller/MusicController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/classes/com/musicmanager/controller/PageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/classes/com/musicmanager/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/classes/mybatis/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/classes/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/classes/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/logs/access_log.2019-05-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/hi_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/hi_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_redis/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_redis/target/musicmanager_redis-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_rest/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_rest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_rest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_rest/target/musicmanager_rest-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_search/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_search/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_search/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_search/target/musicmanager_search-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_sso/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_sso/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_sso/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_sso/target/musicmanager_sso-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/resources/spring/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicmanager_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_parent/pom.xml" afterDir="false" />
@@ -115,18 +198,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/ftl/hello.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="27">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicmanager_common/musicmanager_common.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/hi.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -173,9 +260,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -223,7 +310,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/musicmanager_common/pom.xml" />
         <option value="$PROJECT_DIR$/musicmanager_common/src/main/java/pojo/ResponseResult.java" />
         <option value="$PROJECT_DIR$/musicmanager_common/src/main/java/pojo/ResponseJsonResult.java" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/src/main/java/com/musicmanager/mapper/MusicCategoryMapper.xml" />
@@ -274,6 +360,7 @@
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/FreeMarkerTest.java" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/ftl/hello.ftl" />
+        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/hi.jsp" />
       </list>
     </option>
   </component>
@@ -309,9 +396,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="223" />
-    <option name="y" value="6" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="80" />
+    <option name="y" value="-13" />
     <option name="width" value="1750" />
     <option name="height" value="1052" />
   </component>
@@ -430,6 +517,17 @@
             <path>
               <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
               <item name="musicmanager_sso" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -452,7 +550,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557046210967" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557046382160" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/vue-aplayer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -640,7 +738,7 @@
       <workItem from="1557041145029" duration="680000" />
       <workItem from="1557044101550" duration="81000" />
       <workItem from="1557044212225" duration="334000" />
-      <workItem from="1557044573150" duration="1427000" />
+      <workItem from="1557044573150" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="基于SSM框架的Java项目（IDEA）">
       <created>1554200810366</created>
@@ -870,7 +968,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216126000" />
+    <option name="totallyTimeSpent" value="216367000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -882,10 +980,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="397" y="0" width="1750" height="1052" extended-state="0" />
-    <editor active="true" />
+    <frame x="223" y="6" width="1750" height="1052" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49688148" visible="true" weight="0.19053255" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49688148" visible="true" weight="0.19053255" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.20788912" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -896,13 +993,13 @@
       <window_info id="Designer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.28170478" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5378698" visible="true" weight="0.1906318" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5378698" weight="0.1906318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42203742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49840087" weight="0.32952183" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4621302" side_tool="true" visible="true" weight="0.1906318" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49840087" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4621302" side_tool="true" weight="0.1906318" />
       <window_info anchor="bottom" id="检验" order="9" sideWeight="0.49946696" weight="0.32985386" />
       <window_info anchor="bottom" id="运行" order="10" />
       <window_info anchor="bottom" id="找到" order="11" weight="0.3295711" />
@@ -1048,13 +1145,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/themes/black/datagrid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/themes/angular.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1620" />
@@ -1398,8 +1488,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/ftl/hello.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/hi.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
