@@ -1,0 +1,15 @@
+com\musicmanager\pojo\MusicExample$Criterion.class
+com\musicmanager\pojo\MusicCategoryExample$Criterion.class
+com\musicmanager\pojo\Music.class
+com\musicmanager\pojo\MusicExample$Criteria.class
+com\musicmanager\pojo\UserExample$Criteria.class
+com\musicmanager\pojo\MusicExample.class
+com\musicmanager\pojo\UserExample$GeneratedCriteria.class
+com\musicmanager\pojo\MusicCategoryExample$Criteria.class
+com\musicmanager\pojo\MusicCategoryExample$GeneratedCriteria.class
+com\musicmanager\pojo\MusicExample$GeneratedCriteria.class
+com\musicmanager\pojo\MusicCategoryExample.class
+com\musicmanager\pojo\MusicCategory.class
+com\musicmanager\pojo\User.class
+com\musicmanager\pojo\UserExample.class
+com\musicmanager\pojo\UserExample$Criterion.class

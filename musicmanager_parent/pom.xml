@@ -32,6 +32,7 @@
         <mysql.version>5.1.32</mysql.version>
         <jackson-databind>2.4.2</jackson-databind>
         <pagehelper.version>4.1.1</pagehelper.version>
+        <freemarker.version>2.3.28</freemarker.version>
     </properties>
 
 <!--定义依赖-->
@@ -108,6 +109,18 @@
                <groupId>com.github.pagehelper</groupId>
                <artifactId>pagehelper</artifactId>
                <version>${pagehelper.version}</version>
+           </dependency>
+
+           <dependency>
+               <groupId>org.freemarker</groupId>
+               <artifactId>freemarker</artifactId>
+               <version>${freemarker.version}</version>
+           </dependency>
+
+           <dependency>
+               <groupId>org.springframework</groupId>
+               <artifactId>spring-context-support</artifactId>
+               <version>${spring.version}</version>
            </dependency>
 
        </dependencies>

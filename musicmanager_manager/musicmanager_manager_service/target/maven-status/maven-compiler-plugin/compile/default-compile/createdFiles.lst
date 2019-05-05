@@ -1,0 +1,6 @@
+com\musicmanager\service\impl\MusicCategoryServiceImpl.class
+com\musicmanager\service\impl\UserServiceImpl.class
+com\musicmanager\service\MusicService.class
+com\musicmanager\service\MusicCategoryService.class
+com\musicmanager\service\UserService.class
+com\musicmanager\service\impl\MusicServiceImpl.class

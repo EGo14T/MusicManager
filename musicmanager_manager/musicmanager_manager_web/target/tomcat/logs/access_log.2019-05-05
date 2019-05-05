@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [05/May/2019:16:48:02 +0800] "GET / HTTP/1.1" 200 2681 http-bio-8080-exec-1 1196
+0:0:0:0:0:0:0:1 - - [05/May/2019:16:48:02 +0800] "GET /js/ajaxFileUpload.js HTTP/1.1" 404 949 http-bio-8080-exec-3 12
+0:0:0:0:0:0:0:1 - - [05/May/2019:16:48:02 +0800] "GET /js/APlayer.min.js HTTP/1.1" 304 - http-bio-8080-exec-2 13
+0:0:0:0:0:0:0:1 - - [05/May/2019:16:48:02 +0800] "GET /js/ajaxFileUpload.js HTTP/1.1" 404 949 http-bio-8080-exec-5 3
+0:0:0:0:0:0:0:1 - - [05/May/2019:16:48:02 +0800] "GET /cover1.jpg HTTP/1.1" 404 995 http-bio-8080-exec-6 17
+0:0:0:0:0:0:0:1 - - [05/May/2019:16:48:21 +0800] "GET /hello HTTP/1.1" 200 30 http-bio-8080-exec-7 122
+0:0:0:0:0:0:0:1 - - [05/May/2019:16:48:33 +0800] "GET /hi HTTP/1.1" 200 97 http-bio-8080-exec-8 131

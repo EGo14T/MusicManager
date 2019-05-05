@@ -1,0 +1,5 @@
+com\musicmanager\controller\FreeMarkerTest.class
+com\musicmanager\controller\PageController.class
+com\musicmanager\controller\MusicCategoryController.class
+com\musicmanager\controller\MusicController.class
+com\musicmanager\controller\UserController.class
