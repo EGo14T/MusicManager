@@ -22,4 +22,17 @@
       <module name="musicmanager" target="8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="musicmanager_common" options="" />
+      <module name="musicmanager_manager_mapper" options="" />
+      <module name="musicmanager_manager_pojo" options="" />
+      <module name="musicmanager_manager_service" options="" />
+      <module name="musicmanager_manager_web" options="" />
+      <module name="musicmanager_redis" options="" />
+      <module name="musicmanager_rest" options="" />
+      <module name="musicmanager_search" options="" />
+      <module name="musicmanager_sso" options="" />
+    </option>
+  </component>
 </project>
