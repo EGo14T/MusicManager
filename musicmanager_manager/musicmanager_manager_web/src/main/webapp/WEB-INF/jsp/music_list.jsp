@@ -43,8 +43,6 @@
             // pagination:true,
             // rownumbers:true,
             // pageSize:5,pageList:[5,10,15,20],
-
-
             columns:[[
                 {field:'id',title:'id',width:20,align:'center'},
                 {field:'name',title:'歌曲名称',width:100},
@@ -68,24 +66,16 @@
                         author: row.singer,
                         url: "images/"+row.id+".mp3",
                         lrc: 'images/33.lrc',
-                        pic: ''
                     }
                 });
-                //alert("images/"+node.id+".mp3")
-                ap.url= "images/"+row.id+".mp3"
-                //x.music.url = "images/"+row.id+".mp3"
                 ap.play();
-
             },
-
 
 
         });
 
 
     });
-
-
 
 </script>
 </body>

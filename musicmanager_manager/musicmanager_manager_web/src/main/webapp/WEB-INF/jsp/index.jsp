@@ -83,22 +83,15 @@
     var ap = new APlayer({
         element: document.getElementById('player1'),
         narrow: false,
-        autoplay: true,
-        showlrc: false,
-        theme: '#453f2b',
+        showlrc: true,
         audio: [
             {
                 name: '昕音乐',
                 artist: 'EGo1ST',
-                url: '',
-                cover: 'cover1.jpg',
-                lrc: 'lrc1.lrc',
-                theme: '#ebd0c2'
+                cover: 'cover1.jpg'
             }
         ]
     });
-    ap.init();
-
 
 </script>
 </body>

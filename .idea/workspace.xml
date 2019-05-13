@@ -10,301 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb3f32d3-a5a5-4ca3-bdea-986c3a3e5caf" name="默认的" comment="基于SSM框架的Java项目（IDEA）">
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/ueditorTest.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/background/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/background/background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/background/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/background/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/background/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/charts/charts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/charts/charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/charts/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/help/help.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/help/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/help/help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/image/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/image/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/image/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/image/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/image/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/image/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/image/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/image/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/internal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/link/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/map/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/music/music.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/music/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/music/music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/preview/preview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/table/dragicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/table/edittable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/table/edittable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/table/edittable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/table/edittd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/table/edittip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/template/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/template/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/template/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/video/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/jsp/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/jsp/controller.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/addimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/listbackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/en/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/css/ueditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/dialogbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/charts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/filescan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/loaderror.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/lock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/sortable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/videologo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/word.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/themes/iframe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/jquery-1.10.2.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/video-js/video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/video-js/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/xss.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/ueditor.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/ueditor.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/ueditor.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/ueditor.parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/ueditor.parse.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/JsonTest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/thing.lrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_common/target/musicmanager_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_common/target/musicmanager_common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/logs/access_log.2019-05-05" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/hi_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/hi_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_redis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_redis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_redis/target/musicmanager_redis-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_redis/target/musicmanager_redis-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_rest/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_rest/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_rest/target/musicmanager_rest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_rest/target/musicmanager_rest-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_search/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_search/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_search/target/musicmanager_search-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_search/target/musicmanager_search-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_sso/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_sso/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_sso/target/musicmanager_sso-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_sso/target/musicmanager_sso-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/APlayer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/APlayer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/music_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/music_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -349,76 +61,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicmanager_parent/pom.xml">
+        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/JsonTest.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="159" column="24" selection-start-line="149" selection-start-column="11" selection-end-line="159" selection-end-column="24" />
+            <state relative-caret-position="81">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicmanager_sso/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/music_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/ueditorTest.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/jsp/controller.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/jsp/config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicmanager_manager/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="696">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/impl/MusicServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/MusicCategoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/MusicService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -434,8 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>top</find>
-      <find>background</find>
       <find>topbar.</find>
       <find>topbar.png</find>
       <find>product</find>
@@ -458,12 +152,14 @@
       <find>display</find>
       <find>lrc</find>
       <find>player.lrc.hide</find>
-      <find>\n</find>
       <find>aplayer-lrc-current</find>
       <find>r(e[1])</find>
       <find>r(e</find>
       <find>r(e)</find>
       <find>r(e[</find>
+      <find>\n</find>
+      <find>replace</find>
+      <find>\s</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -476,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/MusicCategoryService.java" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/src/main/java/com/musicmanager/mapper/MusicMapper.xml" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/audio.css" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/PageController.java" />
@@ -494,20 +189,14 @@
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/MusicCategoryController.java" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/MusicService.java" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/music_cat_list.jsp" />
-        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/MusicController.java" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/src/main/java/com/musicmanager/pojo/Music.java" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/themes/default/datagrid.css" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/themes/default/easyui.css" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/impl/MusicServiceImpl.java" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/APlayer.min.css" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/vue.min.js" />
-        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/2.lrc" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/3.lrc" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/List.kt" />
-        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/APlayer.min.js" />
-        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/33.lrc" />
-        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/music_list.jsp" />
-        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/musicmanager_common/src/main/java/pojo/MusicList.java" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/FreeMarkerTest.java" />
@@ -527,6 +216,13 @@
         <option value="$PROJECT_DIR$/musicmanager_parent/pom.xml" />
         <option value="$PROJECT_DIR$/musicmanager_parent/pom.xml" />
         <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/pom.xml" />
+        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/MusicController.java" />
+        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/JsonTest.jsp" />
+        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/2.lrc" />
+        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/music_list.jsp" />
+        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/33.lrc" />
+        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/APlayer.min.js" />
+        <option value="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp" />
       </list>
     </option>
   </component>
@@ -558,8 +254,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1750" />
-    <option name="height" value="1052" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -567,6 +263,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="musicmanager" type="58d84e3e:PackageViewProjectNode" />
+              <item name="musicmanager_common" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -583,6 +290,57 @@
               <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
               <item name="musicmanager_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager" type="462c0819:PsiDirectoryNode" />
               <item name="musicmanager_manager_web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -599,6 +357,25 @@
               <item name="musicmanager_manager_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
@@ -608,6 +385,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
@@ -618,6 +405,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="musicmanager_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="musicmanager" type="b2602c69:ProjectViewProjectNode" />
@@ -629,17 +427,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="musicmanager" type="58d84e3e:PackageViewProjectNode" />
-              <item name="musicmanager_common" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -667,7 +454,7 @@
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557121848543" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557745710295" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/baidu/ueditor/1.1.2/ueditor-1.1.2.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -679,12 +466,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\musicmanager\musicmanager_manager\musicmanager_manager_web\src\main\webapp\WEB-INF\jsp" />
-      <recent name="F:\musicmanager\musicmanager_manager\musicmanager_manager_web\src\main\webapp" />
-      <recent name="F:\musicmanager\musicmanager_manager\musicmanager_manager_web\src\main\webapp\WEB-INF" />
-      <recent name="F:\musicmanager\musicmanager_manager\musicmanager_manager_web\src\main\webapp\WEB-INF\css" />
-      <recent name="F:\musicmanager" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.musicmanager.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\musicmanager\musicmanager_manager\musicmanager_manager_web\src\main\webapp\WEB-INF\lib" />
@@ -693,8 +476,12 @@
       <recent name="F:\musicmanager\musicmanager_manager\musicmanager_manager_web\src\main\webapp\ueditor" />
       <recent name="F:\musicmanager\musicmanager_manager\musicmanager_manager_web\src\main\webapp\images" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.musicmanager.controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\musicmanager\musicmanager_manager\musicmanager_manager_web\src\main\webapp\images" />
+      <recent name="F:\musicmanager\musicmanager_manager\musicmanager_manager_web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="F:\musicmanager\musicmanager_manager\musicmanager_manager_web\src\main\webapp" />
+      <recent name="F:\musicmanager\musicmanager_manager\musicmanager_manager_web\src\main\webapp\WEB-INF" />
+      <recent name="F:\musicmanager\musicmanager_manager\musicmanager_manager_web\src\main\webapp\WEB-INF\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -936,7 +723,9 @@
       <workItem from="1557058540742" duration="460000" />
       <workItem from="1557059026866" duration="1734000" />
       <workItem from="1557114634175" duration="5894000" />
-      <workItem from="1557121974344" duration="4317000" />
+      <workItem from="1557121974344" duration="5547000" />
+      <workItem from="1557293576796" duration="5401000" />
+      <workItem from="1557736206696" duration="8447000" />
     </task>
     <task id="LOCAL-00001" summary="基于SSM框架的Java项目（IDEA）">
       <created>1554200810366</created>
@@ -1169,11 +958,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557046402410</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="基于SSM框架的Java项目（IDEA）">
+      <created>1557138195304</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1557138195305</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240742000" />
+    <option name="totallyTimeSpent" value="255820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1185,9 +981,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49688148" visible="true" weight="0.26309985" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49688148" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.20788912" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1198,13 +995,13 @@
       <window_info id="Designer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.28170478" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73524547" visible="true" weight="0.24532224" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5102041" weight="0.3981289" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42203742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.73745173" weight="0.24948025" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.26475456" side_tool="true" visible="true" weight="0.24532224" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.48979592" side_tool="true" weight="0.2837838" />
       <window_info anchor="bottom" id="检验" order="9" sideWeight="0.49946696" weight="0.32985386" />
       <window_info anchor="bottom" id="运行" order="10" />
       <window_info anchor="bottom" id="找到" order="11" weight="0.3295711" />
@@ -1228,7 +1025,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="数据库" order="9" weight="0.32995737" />
-      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.13568671" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.09754797" />
       <window_info anchor="right" id="Palette" order="11" />
     </layout>
     <layout-to-restore>
@@ -1329,124 +1126,18 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="基于SSM框架的Java项目（IDEA）" />
     <option name="LAST_COMMIT_MESSAGE" value="基于SSM框架的Java项目（IDEA）" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/impl/MusicCategoryServiceImpl.java</url>
-          <line>63</line>
-          <properties class="com.musicmanager.service.impl.MusicCategoryServiceImpl" method="updateCategory">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/themes/default/datalist.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/themes/default/easyui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="1950" column="22" selection-start-line="1950" selection-start-column="22" selection-end-line="1950" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/music_cat_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/src/main/java/com/musicmanager/pojo/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/MusicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="25" column="89" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/topbar.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_common/src/main/java/pojo/EasyGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/src/main/java/com/musicmanager/pojo/MusicCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/vue.min.js" />
     <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/vue-aplayer" />
     <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/List.kt" />
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/music_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/2.lrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/APlayer.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12960">
-          <caret line="480" column="113" selection-start-line="480" selection-start-column="113" selection-end-line="480" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/33.lrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="188" selection-start-column="188" selection-end-column="188" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/musicmanager.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1464,23 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/impl/MusicServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1520,16 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/FreeMarkerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/ftl/hello.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -1537,22 +1201,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/hi.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs/map/map.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1651,34 +1301,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/ueditor/jsp/controller_jsp.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1362">
-          <folding>
-            <element signature="e#0#3178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/ueditor/jsp/controller_jsp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#3064#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/ueditorTest_jsp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#12752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/ueditor/jsp/controller_jsp.class" />
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/ueditor/jsp/controller_jsp.java" />
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/ueditorTest_jsp.java" />
     <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/ueditor.all.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1697,27 +1322,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mvn" />
+    <entry file="file://$PROJECT_DIR$/musicmanager_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4293">
+          <caret line="159" column="24" selection-start-line="149" selection-start-column="11" selection-end-line="159" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/musicmanager_sso/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/ueditorTest.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/jsp/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1728,32 +1354,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_parent/pom.xml">
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/jsp/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="159" column="24" selection-start-line="149" selection-start-column="11" selection-end-line="159" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvn">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="2295">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/ueditorTest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/FreeMarkerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/MusicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/MusicCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/impl/MusicCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/thing.lrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/2.lrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="292" lean-forward="true" selection-start-column="292" selection-end-column="292" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/MusicCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/MusicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/JsonTest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/APlayer.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="543" column="88" selection-start-line="543" selection-start-column="31" selection-end-line="543" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/33.lrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="286" lean-forward="true" selection-start-column="286" selection-end-column="286" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/hi.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/topbar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/impl/MusicServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/music_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
