@@ -16,7 +16,10 @@
 }
 .panel-header,
 .panel-body {
-  border-width: 1px;
+  border-top-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
   border-style: solid;
 }
 .panel-header {
@@ -35,7 +38,7 @@
   padding: 0;
 }
 .panel-body-noheader {
-  border-top-width: 1px;
+  border-top-width: 0;
 }
 .panel-body-noborder {
   border-width: 0px;
@@ -116,7 +119,7 @@
 }
 .panel-header,
 .panel-body {
-  border-color: #95B8E7;
+  border-color: #adadad;
 }
 .panel-header {
   background-color: #E0ECFF;
@@ -1415,7 +1418,9 @@
 .tabs-panels {
   margin: 0px;
   padding: 0px;
-  border-width: 1px;
+  /*
+  顶部边距离*/
+  border-width: 0;
   border-style: solid;
   border-top-width: 0;
   overflow: hidden;

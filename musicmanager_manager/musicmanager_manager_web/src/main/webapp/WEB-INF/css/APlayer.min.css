@@ -1,7 +1,7 @@
 .aplayer {
     background: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 5px;
+    margin: 0px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .07), 0 1px 5px 0 rgba(0, 0, 0, .1);
     border-radius: 2px;
     overflow: hidden;
@@ -210,11 +210,11 @@
 .aplayer .aplayer-icon path {
     transition: all .2s ease-in-out
 }
-
+/*
 .aplayer .aplayer-icon-back, .aplayer .aplayer-icon-forward, .aplayer .aplayer-icon-lrc, .aplayer .aplayer-icon-order, .aplayer .aplayer-icon-play {
-    /*
-    *显示播放暂停前进按钮
-    */display: none
+ 显示播放暂停前进按钮**/
+.aplayer .aplayer-icon-lrc{
+    display: none
 }
 
 .aplayer .aplayer-icon-lrc-inactivity svg {

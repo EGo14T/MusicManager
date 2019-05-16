@@ -25,7 +25,9 @@
 <div data-options="region:'north'" style="height:100px;">
 
 </div>
-<div data-options="region:'west',title:'我的音乐',collapsible:false" style="width:180px">
+
+<div data-options="region:'west',collapsible:false" style="width:180px">
+    <div><span style="font-size: 20px">我的音乐</span></div>
 
     <ul id="tt" class="easyui-tree">
         <li>
@@ -53,13 +55,10 @@
 
 </div>
 
-<div data-options="region:'south',split:false" style="height:120px;" border="false">
+<div data-options="region:'south',split:false" style="height:100px;" border="false">
     <div id="player1" ></div>
 
 </div>
-
-
-
 
 
 <script>
