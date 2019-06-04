@@ -12,8 +12,12 @@
     <link rel="stylesheet" type="text/css" href="/css/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="/css/themes/icon.css">
     <link rel="stylesheet" type="text/css" href="/css/APlayer.min.css">
+    <link rel="stylesheet" type="text/css" href="layui/css/layui.css">
+
+
     <script type="text/javascript" src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="layui/layui.js"></script>
     <script type="text/javascript" src="/js/ajaxFileUpload.js"></script>
     <script type="text/javascript" src="/js/APlayer.min.js"></script>
 </head>
@@ -26,38 +30,32 @@
 
 </div>
 
-<div data-options="region:'west',collapsible:false" style="width:180px">
-    <div><span style="font-size: 20px">我的音乐</span></div>
-
-    <ul id="tt" class="easyui-tree">
-        <li>
-            <span>音乐分类管理</span>
-            <ul>
-                <li data-options="attributes:{'url':'music_cat_list'}">音乐分类列表</li>
-            </ul>
-        </li>
-        <li>
-            <span>音乐管理</span>
-            <ul>
-                <li data-options="attributes:{'url':'music_list'}">音乐列表</li>
-                <li data-options="attributes:{'url':'music_add'}">音乐添加</li>
-            </ul>
-        </li>
-    </ul>
+<div class="layui-side layui-bg-black"data-options="region:'west',collapsible:false">
+    <div class="layui-side-scroll" >
+        <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+        <ul class="layui-nav layui-nav-tree">
+            <li class="layui-nav-item layui-nav-itemed">
+                <span>&nbsp;&nbsp;&nbsp;我的音乐</span>
+                <dl class="layui-nav-child">
+                    <dd onclick="addtabs('music_list','音乐列表')"><a href="JavaScript:";>音乐列表</a></dd>
+                    <dd onclick="addtabs('music_cat_list','音乐分类')"><a href="JavaScript:";>音乐分类</a></dd>
+                    <dd><a onclick="addtabs()">我的收藏</a></dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
 </div>
 
 
 <div data-options="region:'center'">
-    <div id="tabs" class="easyui-tabs" showHeader="false">
-        <div title="首页">
-        </div>
+    <div id="tabs" class="easyui-tabs" showHeader="false"/>
+
     </div>
 
 </div>
 
 <div data-options="region:'south',split:false" style="height:100px;" border="false">
     <div id="player1" ></div>
-
 </div>
 
 
@@ -78,6 +76,23 @@
             }
         }
     });
+
+    function addtabs(ura,te) {
+        var tabs = $("#tabs");
+        var tab = tabs.tabs("getTab",te);
+        var lay = $("dd");
+        if(tab){
+            tabs.tabs("select",te);
+        }else {
+            var lay = $("dd");
+            tabs.tabs('add',{
+                title:te,
+                content:'Tab Body',
+                href:ura,
+                closable:true
+            });
+        }
+    }
 
     var ap = new APlayer({
         element: document.getElementById('player1'),

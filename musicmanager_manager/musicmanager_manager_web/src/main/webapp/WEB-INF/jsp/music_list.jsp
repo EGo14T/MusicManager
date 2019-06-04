@@ -10,6 +10,13 @@
 <html>
 <head>
     <title>音乐列表</title>
+    <link rel="stylesheet" type="text/css" href="/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/css/themes/icon.css">
+    <link rel="stylesheet" href="/css/APlayer.min.css">
+
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/js/APlayer.min.js"></script>
 
 
 </head>
@@ -53,11 +60,13 @@
 
             onDblClickRow: function(){
 
+
                 var row = $('#dg').datagrid('getSelected');
                 //获取选中行
+               // alert(row.id)
 
                 var ap = new APlayer({
-                    element: document.getElementById('player1'),
+                    element: window.parent.document.getElementById('player1'),
                     autoplay: true,
                     lrcType:3,
                     showlrc:true,

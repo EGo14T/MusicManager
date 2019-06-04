@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/musicmanager_rest" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

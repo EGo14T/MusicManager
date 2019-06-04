@@ -41,98 +41,19 @@
                 <li class="layui-nav-item layui-nav-itemed">
                     <a class="" href="javascript:;">我的音乐</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">音乐列表</a></dd>
+                        <dd><a href="music_list" target="iframe">音乐列表</a></dd>
                         <dd><a href="javascript:;">下载管理</a></dd>
                         <dd><a href="javascript:;">我的收藏</a></dd>
                     </dl>
                 </li>
             </ul>
-            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;">我的音乐</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">音乐列表</a></dd>
-                        <dd><a href="javascript:;">下载管理</a></dd>
-                        <dd><a href="javascript:;">我的收藏</a></dd>
-                    </dl>
-                </li>
-            </ul>
-            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;">我的音乐</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">音乐列表</a></dd>
-                        <dd><a href="javascript:;">下载管理</a></dd>
-                        <dd><a href="javascript:;">我的收藏</a></dd>
-                    </dl>
-                </li>
-            </ul>
-            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;">我的音乐</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">音乐列表</a></dd>
-                        <dd><a href="javascript:;">下载管理</a></dd>
-                        <dd><a href="javascript:;">我的收藏</a></dd>
-                    </dl>
-                </li>
-            </ul>
-            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;">我的音乐</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">音乐列表</a></dd>
-                        <dd><a href="javascript:;">下载管理</a></dd>
-                        <dd><a href="javascript:;">我的收藏</a></dd>
-                    </dl>
-                </li>
-            </ul>
-            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;">我的音乐</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">音乐列表</a></dd>
-                        <dd><a href="javascript:;">下载管理</a></dd>
-                        <dd><a href="javascript:;">我的收藏</a></dd>
-                    </dl>
-                </li>
-            </ul>
-            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;">我的音乐</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">音乐列表</a></dd>
-                        <dd><a href="javascript:;">下载管理</a></dd>
-                        <dd><a href="javascript:;">我的收藏</a></dd>
-                    </dl>
-                </li>
-            </ul>
-            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;">我的音乐</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">音乐列表</a></dd>
-                        <dd><a href="javascript:;">下载管理</a></dd>
-                        <dd><a href="javascript:;">我的收藏</a></dd>
-                    </dl>
-                </li>
-            </ul>
-            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;">我的音乐</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">音乐列表</a></dd>
-                        <dd><a href="javascript:;">下载管理</a></dd>
-                        <dd><a href="javascript:;">我的收藏</a></dd>
-                    </dl>
-                </li>
-            </ul>
+
         </div>
     </div>
 
     <div class="layui-body">
         <!-- 内容主体区域 -->
-        <div style="padding: 15px;"></div>
+        <iframe name="iframe" style="width: 100%" height="100%" src=""></iframe>
     </div>
 
     <div class="layui-footer">

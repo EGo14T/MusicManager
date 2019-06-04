@@ -19,7 +19,7 @@ public class PageController {
 
     @RequestMapping("/")
     public String requestIndex(){
-        return "mainUI";
+        return "index";
     }
 
 
