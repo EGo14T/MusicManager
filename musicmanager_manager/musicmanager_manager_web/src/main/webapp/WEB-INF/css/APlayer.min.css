@@ -36,8 +36,9 @@
 
 .aplayer.aplayer-withlist .aplayer-icon-order, .aplayer.aplayer-withlist .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon.aplayer-icon-menu {
     /*隐藏播放列表按钮
-    *
-    */display: inline
+    *display: inline
+    */
+
 }
 
 .aplayer.aplayer-withlrc .aplayer-pic {

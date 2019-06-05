@@ -25,18 +25,21 @@
     <script type="text/javascript">
         $(function(){
             $("#btn").click(function(){
-                $.getJSON("/music_category/list",function(data){
+                $.getJSON("/music_category/list",function(result){
+
+                    alert(result)
                     var $jsontip = $("#jsonTip");
                     var strHtml = "";//存储数据的变量
                     $jsontip.empty();//清空内容
-                    $.each(data,function(infoIndex,info){
+                    $.each(result,function(i,info){
                         strHtml += "姓名："+info["id"]+"<br>";
                         strHtml += "性别："+info["text"]+"<br>";
-                        strHtml += "邮箱："+info["email"]+"<br>";
+                        strHtml += "邮箱："+info["state"]+"<br>";
                         strHtml += "<hr>"
                     })
                     $jsontip.html(strHtml);//显示处理后的数据
                 })
+
             })
         })
     </script>

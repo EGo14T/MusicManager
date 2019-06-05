@@ -5,6 +5,9 @@
     <file type="web" url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web" />
     <file type="web" url="file://$PROJECT_DIR$/musicmanager_rest" />
   </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JS_1_8_5" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

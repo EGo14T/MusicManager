@@ -7,28 +7,6 @@ import java.util.List;
  * 说明：
  */
 public class MusicList {
-
-
-    private List<AudioBean> audio;
-
-    public List<AudioBean> getAudio() {
-        return audio;
-    }
-
-    public void setAudio(List<AudioBean> audio) {
-        this.audio = audio;
-    }
-
-    public static class AudioBean {
-        /**
-         * name : name1
-         * artist : artist1
-         * url : url1.mp3
-         * cover : cover1.jpg
-         * lrc : lrc1.lrc
-         * theme : #ebd0c2
-         */
-
         private String name;
         private String artist;
         private String url;

@@ -39,6 +39,22 @@
 <table id="dg"></table>
 <script type="text/javascript">
     $(function () {
+
+        var songList = [];
+
+        $.getJSON("/music_category/list",function (result) {
+            $.each(result,function (i,item) {
+                var obj = {};
+                obj.title = item["text"];
+                obj.author =  item["id"];
+                obj.url =  "images/"+item["id"]+".mp3"
+                obj.lrc =  "images/"+item["id"]+".lrc";
+                songList.push(obj);
+            })
+            console.log(songList)
+        });
+
+
         $('#dg').datagrid({
             url:'/music/list',
             singleSelect:true,
@@ -70,12 +86,7 @@
                     autoplay: true,
                     lrcType:3,
                     showlrc:true,
-                    audio: {
-                        title: row.name,
-                        author: row.singer,
-                        url: "images/"+row.id+".mp3",
-                        lrc: 'images/33.lrc',
-                    }
+                    audio: songList
                 });
                 ap.play();
             },
