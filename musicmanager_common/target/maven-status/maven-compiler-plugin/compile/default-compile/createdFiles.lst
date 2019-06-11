@@ -1,5 +1,5 @@
-pojo\MusicList$AudioBean.class
 pojo\MusicList.class
 pojo\ResponseJsonResult.class
+utils\HttpClientUtil.class
 pojo\EasyUITree.class
 pojo\EasyGrid.class

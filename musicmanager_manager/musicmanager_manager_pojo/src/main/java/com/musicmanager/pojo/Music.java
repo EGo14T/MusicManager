@@ -1,7 +1,5 @@
 package com.musicmanager.pojo;
 
-import java.util.Date;
-
 public class Music {
     private Integer id;
 
@@ -11,7 +9,7 @@ public class Music {
 
     private String album;
 
-    private Date length;
+    private String length;
 
     public Integer getId() {
         return id;
@@ -45,11 +43,11 @@ public class Music {
         this.album = album == null ? null : album.trim();
     }
 
-    public Date getLength() {
+    public String getLength() {
         return length;
     }
 
-    public void setLength(Date length) {
-        this.length = length;
+    public void setLength(String length) {
+        this.length = length == null ? null : length.trim();
     }
 }

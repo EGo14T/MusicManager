@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>昕音乐</title>
     <link rel="stylesheet" type="text/css" href="/css/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="/css/themes/icon.css">
     <link rel="stylesheet" type="text/css" href="/css/APlayer.min.css">
@@ -20,6 +20,7 @@
     <script type="text/javascript" src="layui/layui.js"></script>
     <script type="text/javascript" src="/js/ajaxFileUpload.js"></script>
     <script type="text/javascript" src="/js/APlayer.min.js"></script>
+    <script type="text/javascript" src="/js/formatter.js"></script>
 </head>
 
 <body class="easyui-layout" onselectstart="return false" >

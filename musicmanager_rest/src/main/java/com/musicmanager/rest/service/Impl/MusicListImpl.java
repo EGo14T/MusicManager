@@ -29,17 +29,25 @@ public class MusicListImpl implements MusicListService {
         PageHelper.startPage(1,20);
         MusicExample musicExample = new MusicExample();
 
-        List<Music> music = musicMapper.selectByExample(musicExample);
+        List<Music> musics = musicMapper.selectByExample(musicExample);
+
         List<MusicList> musicLists = new ArrayList<>();
 
-        for (int i = 0; i < music.size(); i++) {
+        for (int i = 0; i < musics.size(); i++) {
             MusicList musicList = new MusicList();
-            Music music1 = music.get(i);
+            Music music = musics.get(i);
+
+            musicList.setUrl(music.getId()+"");
+            musicList.setName(music.getName());
+            musicList.setArtist(music.getSinger());
+            musicList.setLrc(music.getId());
+
+            musicLists.add(musicList);
 
         }
+        ResponseJsonResult responseJsonResult = new ResponseJsonResult();
+        responseJsonResult.setList(musicLists);
 
-
-
-        return null;
+        return responseJsonResult;
     }
 }
