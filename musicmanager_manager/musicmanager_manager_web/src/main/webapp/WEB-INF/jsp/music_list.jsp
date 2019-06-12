@@ -56,7 +56,7 @@
                 obj.id = item["id"];
                 obj.title = item["name"];
                 obj.author =  item["artist"];
-                obj.url =  "images/"+item["url"]+".mp3";
+                obj.url =  "${pageContext.request.contextPath}/images/"+item["url"]+".mp3";
                 obj.lrc =  "images/"+item["lrc"]+".lrc";
                 obj.cover = "images/"+item["id"]+".png";
                 songList.push(obj);
@@ -93,6 +93,7 @@
                 $('.download').linkbutton({plain:true,iconCls:'icon-download'});
             },
         onDblClickRow: function(){
+                console.log("${pageContext.request.contextPath}");
                 var row = $('#dg').datagrid('getSelected');
                 songRow = [];
                 arrNum = [];
@@ -101,7 +102,7 @@
                 obj1.id = row.id;
                 obj1.title = row.name;
                 obj1.author = row.singer;
-                obj1.url =  "images/"+row.id+".mp3";
+                obj1.url =  "${pageContext.request.contextPath}/images/"+row.id+".mp3";
                 obj1.lrc =  "images/"+row.id+".lrc";
                 obj1.cover = "images/"+row.id+".png";
                 songRow.push(obj1);
@@ -131,8 +132,8 @@
                     //console.log(resAll);
 
                     for (var i = 0; i < resAll.length; i++) {
-                        var s = resAll[i];
                         var objNew = {};
+                        var s = resAll[i];
                         objNew = songList[s-1];
                         //console.log(s);
                         resNew.push(objNew)
