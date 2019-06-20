@@ -40,8 +40,9 @@
         <commons-net.version>3.3</commons-net.version>
         <commons-lang3>3.1</commons-lang3>
         <gson.version>2.7</gson.version>
-
         <json.version>1.1</json.version>
+        <servlet.version>2.3.1</servlet.version>
+        <jsp.version>2.2</jsp.version>
 
     </properties>
 
@@ -186,7 +187,6 @@
                <artifactId>gson</artifactId>
                <version>${gson.version}</version>
            </dependency>
-
        </dependencies>
 
 

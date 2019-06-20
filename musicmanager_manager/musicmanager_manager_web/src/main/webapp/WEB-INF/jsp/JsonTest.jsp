@@ -24,6 +24,11 @@
     </style>
     <script type="text/javascript">
         $(function(){
+            $('#test1').on('click', function(){
+
+                layer.msg('hello');
+            });
+
             $("#btn").click(function(){
                 $.getJSON("/music_category/list",function(result){
 
@@ -45,11 +50,6 @@
     </script>
 </head>
 <body>
-<div id="divframe">
-    <div class="loadTitle">
-        <input type="button" value="获取数据" id="btn"/>
-    </div>
-    <div id="jsonTip"> </div>
-</div>
+<button id="test1" class="layui-btn">运行上述例子</button>
 </body>
 </html>

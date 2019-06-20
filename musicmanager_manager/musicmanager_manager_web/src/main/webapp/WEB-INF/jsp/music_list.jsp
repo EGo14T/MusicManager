@@ -6,18 +6,25 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 <!DOCTYPE HTML>
 <html>
 <head>
+    <base href="<%=basePath%>">
     <title>音乐列表</title>
-    <link rel="stylesheet" type="text/css" href="/css/themes/default/easyui.css">
-    <link rel="stylesheet" type="text/css" href="/css/themes/icon.css">
-    <link rel="stylesheet" href="/css/APlayer.min.css">
+    <link rel="stylesheet" type="text/css" href="<%=basePath%>css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="<%=basePath%>css/themes/icon.css">
+    <link rel="stylesheet" href="<%=basePath%>css/APlayer.min.css">
+    <link rel="stylesheet" type="text/css" href="<%=basePath%>layui/css/layui.css">
 
-    <script type="text/javascript" src="/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
-    <script type="text/javascript" src="/js/APlayer.min.js"></script>
-    <script type="text/javascript" src="/js/formatter.js"></script>
+    <script type="text/javascript" src="<%=basePath%>js/jquery.min.js"></script>
+    <script type="text/javascript" src="<%=basePath%>js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="<%=basePath%>js/APlayer.min.js"></script>
+    <script type="text/javascript" src="<%=basePath%>js/formatter.js"></script>
+    <script type="text/javascript" src="<%=basePath%>layui/layui.js"></script>
 
 
 </head>
@@ -40,8 +47,6 @@
 <table id="dg"></table>
 <script type="text/javascript">
 
-
-
     $(function () {
 
         var songList = [];
@@ -50,26 +55,27 @@
         var arrNum = []; // 声明一个数组 里面放入歌单的id值 长度为songNow
 
 
-        $.getJSON("http://localhost:8080/rest/music/list",function (result) {
+        $.getJSON("<%=basePath%>/rest/music/list",function (result) {
             $.each(result,function (i,item) {
                 var obj = {};
                 obj.id = item["id"];
                 obj.title = item["name"];
                 obj.author =  item["artist"];
-                obj.url =  "${pageContext.request.contextPath}/images/"+item["url"]+".mp3";
-                obj.lrc =  "images/"+item["lrc"]+".lrc";
-                obj.cover = "images/"+item["id"]+".png";
+                obj.url =  "<%=basePath%>images/"+item["url"]+".mp3";
+                obj.lrc =  "<%=basePath%>images/"+item["lrc"]+".lrc";
+                obj.cover = "<%=basePath%>images/"+item["id"]+".png";
                 songList.push(obj);
-
             });
-
+console.log(songList);
         });
+
         $('#dg').datagrid({
             url:'/music/list',
             singleSelect:true,
             fitColumns:true,
             scrollbarSize:0,
             striped:true,
+            cache:false,
 
             //分页显示
             // pagination:true,
@@ -77,23 +83,19 @@
             // pageSize:5,pageList:[5,10,15,20],
             columns:[[
                 {field:'id',width:10,align:'center'},
-                {field:'opt',title:'操作',width:50,align:'center',
-                    formatter:function(){
-                        var btn = '<a class="love" href="javascript:alert(123)"/>'+'<a class="download" href="javascript:alert(1203)"/>';
-                        return btn;
-                    }
-                },
+                {field:'love',title:'操作',width:50,formatter:loveInOrOff,align:'center'},
                 {field:'name',title:'音乐标题',width:200},
                 {field:'singer',title:'歌手',width:150},
                 {field:'album',title:'专辑',width:150},
                 {field:'length',title:'时长',width:50}
             ]],
+
             onLoadSuccess:function(){
-                $('.love').linkbutton({plain:true,iconCls:'icon-love-on'});
+                $('.loveOff').linkbutton({plain:true,iconCls:'icon-love-off'});
+                $('.loveIn').linkbutton({plain:true,iconCls:'icon-love-on'});
                 $('.download').linkbutton({plain:true,iconCls:'icon-download'});
             },
-        onDblClickRow: function(){
-                console.log("${pageContext.request.contextPath}");
+            onDblClickRow: function(){
                 var row = $('#dg').datagrid('getSelected');
                 songRow = [];
                 arrNum = [];
@@ -102,9 +104,9 @@
                 obj1.id = row.id;
                 obj1.title = row.name;
                 obj1.author = row.singer;
-                obj1.url =  "${pageContext.request.contextPath}/images/"+row.id+".mp3";
-                obj1.lrc =  "images/"+row.id+".lrc";
-                obj1.cover = "images/"+row.id+".png";
+                obj1.url =  "<%=basePath%>images/"+row.id+".mp3";
+                obj1.lrc =  "<%=basePath%>images/"+row.id+".lrc";
+                obj1.cover = "<%=basePath%>images/"+row.id+".png";
                 songRow.push(obj1);
                 unNewArr = songRow.concat(songList);
 

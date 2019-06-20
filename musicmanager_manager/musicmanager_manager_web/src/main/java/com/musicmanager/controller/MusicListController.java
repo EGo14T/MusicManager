@@ -22,6 +22,7 @@ public class MusicListController {
     @RequestMapping("/music/list")
     @ResponseBody
     public List<MusicList> getMusicList(){
+
        List<MusicList> musicLists = musicListService.getMusicList();
 
         return musicLists;

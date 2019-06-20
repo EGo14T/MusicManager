@@ -11,6 +11,8 @@ public class Music {
 
     private String length;
 
+    private Short love;
+
     public Integer getId() {
         return id;
     }
@@ -49,5 +51,13 @@ public class Music {
 
     public void setLength(String length) {
         this.length = length == null ? null : length.trim();
+    }
+
+    public Short getLove() {
+        return love;
+    }
+
+    public void setLove(Short love) {
+        this.love = love;
     }
 }

@@ -40,6 +40,7 @@ public class MusicListImpl implements MusicListService {
             musicList.setName(music.getName());
             musicList.setArtist(music.getSinger());
             musicList.setLrc(music.getId());
+            musicList.setLove(music.getLove());
             musicLists.add(musicList);
 
         }

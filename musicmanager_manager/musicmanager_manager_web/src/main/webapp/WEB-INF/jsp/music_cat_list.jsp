@@ -39,18 +39,6 @@
                 });
             },
 
-            onDblClick:function(e,node){
-                var tree = $('#musicCategory');
-                node = tree.tree('getSelected');
-                var x = document.getElementById("myaudio")
-                //alert("images/"+node.id+".mp3")
-                x.src = "images/"+node.id+".mp3"
-                alert(node.id)
-                x.play()
-
-            },
-
-
 
             onAfterEdit:function (node) {
 
@@ -119,7 +107,6 @@
     function remove() {
         var tree = $('#musicCategory');
         var node = tree.tree('getSelected');
-
         tree.tree("remove",node.target);
     };
 

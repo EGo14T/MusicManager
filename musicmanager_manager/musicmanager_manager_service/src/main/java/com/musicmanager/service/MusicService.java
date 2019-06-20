@@ -10,6 +10,10 @@ import pojo.ResponseJsonResult;
  */
 public interface MusicService {
     ResponseJsonResult saveMusic(Music music);
+
     EasyGrid listMusic(int pages,int rows);
+
+    //添加收藏
+    ResponseJsonResult addLove(int id,Short love);
 
 }

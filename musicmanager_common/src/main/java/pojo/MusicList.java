@@ -47,9 +47,19 @@ public class MusicList {
         this.lrc = lrc;
     }
 
+    public int getLove() {
+        return love;
+    }
+
+    public void setLove(int love) {
+        this.love = love;
+    }
+
         private int id;
         private String name;
         private String artist;
         private String url;
         private int lrc;
+        private int love;
+
 }

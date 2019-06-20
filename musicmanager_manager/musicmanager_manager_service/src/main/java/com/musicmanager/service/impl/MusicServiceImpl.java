@@ -40,6 +40,23 @@ public class MusicServiceImpl implements MusicService {
     }
 
     @Override
+    public ResponseJsonResult addLove(int id, Short love) {
+        Music music = new Music();
+        music.setId(id);
+        music.setLove(love);
+
+        MusicExample musicExample = new MusicExample();
+        MusicExample.Criteria criteria = musicExample.createCriteria();
+        criteria.andIdEqualTo(id);
+
+        musicMapper.updateByExampleSelective(music,musicExample);
+
+        ResponseJsonResult responseJsonResult = new ResponseJsonResult();
+        responseJsonResult.setStatus(200);
+        return responseJsonResult;
+    }
+
+    @Override
     public ResponseJsonResult saveMusic(Music music) {
         return null;
     }

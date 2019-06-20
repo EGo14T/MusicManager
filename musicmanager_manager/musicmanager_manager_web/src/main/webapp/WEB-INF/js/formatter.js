@@ -47,3 +47,73 @@ function comFormatDate(date) {
     }
     return CurrentDate;
 }
+
+//重新渲染方法
+function draw(){
+    $('.loveOff').linkbutton({plain:true,iconCls:'icon-love-off'});
+    $('.loveIn').linkbutton({plain:true,iconCls:'icon-love-on'});
+    $('.download').linkbutton({plain:true,iconCls:'icon-download'});
+}
+
+
+
+//收藏图标按钮的切换
+function loveInOrOff(value,row,index) {
+    if (value == 0){
+        var btn = '<a id = "lovebtn'+row.id+'" class="loveOff" href="javascript:void(0);" onclick="loveOff('+ row.id+ ',' +value + ')"/>'
+            +
+            '<a class="download" href="javascript:alert(0)"/>';
+        return btn;
+    }
+    if (value == 1){
+        var btn = '<a class="loveIn" href="javascript:void(0);" onclick="loveIn('+ row.id+ ','+value +')"/>'
+            +
+            '<a class="download" href="javascript:alert(1)"/>';
+        return btn;
+    }
+    if (value == 3){
+        var btn = '<a href="#" class="easyui-linkbutton" data-options="iconCls:\'icon-love-off\'"></a>';
+        return btn;
+    }
+
+
+    
+}
+//取消收藏----->收藏
+function loveOff(row,value) {
+    $('#dg').datagrid('getRows')[row-1].love = '1';
+    $('#dg').datagrid('refreshRow',row-1);
+    draw();
+    $.post("lovemusic",{id:row,love:1},function(data){
+        if (data.status==200){
+            layer.msg('已添加到我喜欢的音乐', {
+                icon: 6,
+                time: 900
+            });
+        }
+
+    });
+
+}
+
+//收藏---->取消收藏
+function loveIn(row,value) {
+    $('#dg').datagrid('getRows')[row-1].love = '0';
+    $('#dg').datagrid('refreshRow',row-1);
+    draw();
+
+    $.post("lovemusic",{id:row,love:0},function(data){
+        if (data.status==200){
+            layer.msg('取消喜欢成功', {
+                icon: 5,
+                time: 900
+            });
+        }
+    });
+}
+
+
+
+
+
+
