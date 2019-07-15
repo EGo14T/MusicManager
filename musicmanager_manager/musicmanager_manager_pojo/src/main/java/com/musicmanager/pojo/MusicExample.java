@@ -1,7 +1,6 @@
 package com.musicmanager.pojo;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class MusicExample {
@@ -385,53 +384,183 @@ public class MusicExample {
             return (Criteria) this;
         }
 
-        public Criteria andLengthEqualTo(Date value) {
+        public Criteria andLengthEqualTo(String value) {
             addCriterion("length =", value, "length");
             return (Criteria) this;
         }
 
-        public Criteria andLengthNotEqualTo(Date value) {
+        public Criteria andLengthNotEqualTo(String value) {
             addCriterion("length <>", value, "length");
             return (Criteria) this;
         }
 
-        public Criteria andLengthGreaterThan(Date value) {
+        public Criteria andLengthGreaterThan(String value) {
             addCriterion("length >", value, "length");
             return (Criteria) this;
         }
 
-        public Criteria andLengthGreaterThanOrEqualTo(Date value) {
+        public Criteria andLengthGreaterThanOrEqualTo(String value) {
             addCriterion("length >=", value, "length");
             return (Criteria) this;
         }
 
-        public Criteria andLengthLessThan(Date value) {
+        public Criteria andLengthLessThan(String value) {
             addCriterion("length <", value, "length");
             return (Criteria) this;
         }
 
-        public Criteria andLengthLessThanOrEqualTo(Date value) {
+        public Criteria andLengthLessThanOrEqualTo(String value) {
             addCriterion("length <=", value, "length");
             return (Criteria) this;
         }
 
-        public Criteria andLengthIn(List<Date> values) {
+        public Criteria andLengthLike(String value) {
+            addCriterion("length like", value, "length");
+            return (Criteria) this;
+        }
+
+        public Criteria andLengthNotLike(String value) {
+            addCriterion("length not like", value, "length");
+            return (Criteria) this;
+        }
+
+        public Criteria andLengthIn(List<String> values) {
             addCriterion("length in", values, "length");
             return (Criteria) this;
         }
 
-        public Criteria andLengthNotIn(List<Date> values) {
+        public Criteria andLengthNotIn(List<String> values) {
             addCriterion("length not in", values, "length");
             return (Criteria) this;
         }
 
-        public Criteria andLengthBetween(Date value1, Date value2) {
+        public Criteria andLengthBetween(String value1, String value2) {
             addCriterion("length between", value1, value2, "length");
             return (Criteria) this;
         }
 
-        public Criteria andLengthNotBetween(Date value1, Date value2) {
+        public Criteria andLengthNotBetween(String value1, String value2) {
             addCriterion("length not between", value1, value2, "length");
+            return (Criteria) this;
+        }
+
+        public Criteria andLoveIsNull() {
+            addCriterion("love is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andLoveIsNotNull() {
+            addCriterion("love is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andLoveEqualTo(Short value) {
+            addCriterion("love =", value, "love");
+            return (Criteria) this;
+        }
+
+        public Criteria andLoveNotEqualTo(Short value) {
+            addCriterion("love <>", value, "love");
+            return (Criteria) this;
+        }
+
+        public Criteria andLoveGreaterThan(Short value) {
+            addCriterion("love >", value, "love");
+            return (Criteria) this;
+        }
+
+        public Criteria andLoveGreaterThanOrEqualTo(Short value) {
+            addCriterion("love >=", value, "love");
+            return (Criteria) this;
+        }
+
+        public Criteria andLoveLessThan(Short value) {
+            addCriterion("love <", value, "love");
+            return (Criteria) this;
+        }
+
+        public Criteria andLoveLessThanOrEqualTo(Short value) {
+            addCriterion("love <=", value, "love");
+            return (Criteria) this;
+        }
+
+        public Criteria andLoveIn(List<Short> values) {
+            addCriterion("love in", values, "love");
+            return (Criteria) this;
+        }
+
+        public Criteria andLoveNotIn(List<Short> values) {
+            addCriterion("love not in", values, "love");
+            return (Criteria) this;
+        }
+
+        public Criteria andLoveBetween(Short value1, Short value2) {
+            addCriterion("love between", value1, value2, "love");
+            return (Criteria) this;
+        }
+
+        public Criteria andLoveNotBetween(Short value1, Short value2) {
+            addCriterion("love not between", value1, value2, "love");
+            return (Criteria) this;
+        }
+
+        public Criteria andMusicListIdIsNull() {
+            addCriterion("music_list_id is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andMusicListIdIsNotNull() {
+            addCriterion("music_list_id is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andMusicListIdEqualTo(Integer value) {
+            addCriterion("music_list_id =", value, "musicListId");
+            return (Criteria) this;
+        }
+
+        public Criteria andMusicListIdNotEqualTo(Integer value) {
+            addCriterion("music_list_id <>", value, "musicListId");
+            return (Criteria) this;
+        }
+
+        public Criteria andMusicListIdGreaterThan(Integer value) {
+            addCriterion("music_list_id >", value, "musicListId");
+            return (Criteria) this;
+        }
+
+        public Criteria andMusicListIdGreaterThanOrEqualTo(Integer value) {
+            addCriterion("music_list_id >=", value, "musicListId");
+            return (Criteria) this;
+        }
+
+        public Criteria andMusicListIdLessThan(Integer value) {
+            addCriterion("music_list_id <", value, "musicListId");
+            return (Criteria) this;
+        }
+
+        public Criteria andMusicListIdLessThanOrEqualTo(Integer value) {
+            addCriterion("music_list_id <=", value, "musicListId");
+            return (Criteria) this;
+        }
+
+        public Criteria andMusicListIdIn(List<Integer> values) {
+            addCriterion("music_list_id in", values, "musicListId");
+            return (Criteria) this;
+        }
+
+        public Criteria andMusicListIdNotIn(List<Integer> values) {
+            addCriterion("music_list_id not in", values, "musicListId");
+            return (Criteria) this;
+        }
+
+        public Criteria andMusicListIdBetween(Integer value1, Integer value2) {
+            addCriterion("music_list_id between", value1, value2, "musicListId");
+            return (Criteria) this;
+        }
+
+        public Criteria andMusicListIdNotBetween(Integer value1, Integer value2) {
+            addCriterion("music_list_id not between", value1, value2, "musicListId");
             return (Criteria) this;
         }
     }

@@ -5247,3 +5247,9 @@ body .layui-util-face .layui-layer-content {
     -webkit-animation-name: layui-fadeout;
     animation-name: layui-fadeout
 }
+
+.login {
+    position:absolute;
+    right:100px;
+    top:15px
+}

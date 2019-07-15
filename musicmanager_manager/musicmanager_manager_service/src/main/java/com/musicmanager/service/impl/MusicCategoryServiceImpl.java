@@ -20,8 +20,8 @@ import java.util.List;
 public class MusicCategoryServiceImpl implements MusicCategoryService {
 
     @Autowired
-    private MusicCategoryMapper musicCategoryMapper;
 
+    private MusicCategoryMapper musicCategoryMapper;
     @Override
     public List<EasyUITree> findMusicCategoryListByParentId(Short parentId) {
 

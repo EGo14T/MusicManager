@@ -60,19 +60,15 @@ function draw(){
 //收藏图标按钮的切换
 function loveInOrOff(value,row,index) {
     if (value == 0){
-        var btn = '<a id = "lovebtn'+row.id+'" class="loveOff" href="javascript:void(0);" onclick="loveOff('+ row.id+ ',' +value + ')"/>'
+        var btn =  '<a id = "lovebtn'+row.id+'" class="loveOff" href="javascript:void(0);" onclick="loveOff('+ row.id+ ',' +value + ')"/>'
             +
-            '<a class="download" href="javascript:alert(0)"/>';
+            '<a class="download" href="images/'+row.id+'.mp3" download="'+row.name+'"/>';
         return btn;
     }
     if (value == 1){
         var btn = '<a class="loveIn" href="javascript:void(0);" onclick="loveIn('+ row.id+ ','+value +')"/>'
             +
-            '<a class="download" href="javascript:alert(1)"/>';
-        return btn;
-    }
-    if (value == 3){
-        var btn = '<a href="#" class="easyui-linkbutton" data-options="iconCls:\'icon-love-off\'"></a>';
+            '<a class="download" href="images/'+row.id+'.mp3" download="'+row.name+'"/>';
         return btn;
     }
 

@@ -5,7 +5,7 @@
   Time: 11:16
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="Java" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -34,6 +34,7 @@
 <!--顶层布局-->
 
 <div data-options="region:'north'" style="height:100px;">
+    <a class="login" href="/login">登陆</a>
 
 </div>
 

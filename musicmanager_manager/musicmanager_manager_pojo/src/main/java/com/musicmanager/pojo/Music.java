@@ -13,6 +13,8 @@ public class Music {
 
     private Short love;
 
+    private Integer musicListId;
+
     public Integer getId() {
         return id;
     }
@@ -59,5 +61,13 @@ public class Music {
 
     public void setLove(Short love) {
         this.love = love;
+    }
+
+    public Integer getMusicListId() {
+        return musicListId;
+    }
+
+    public void setMusicListId(Integer musicListId) {
+        this.musicListId = musicListId;
     }
 }

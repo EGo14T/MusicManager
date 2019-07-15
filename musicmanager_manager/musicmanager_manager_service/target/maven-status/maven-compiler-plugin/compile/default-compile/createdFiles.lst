@@ -1,9 +1,12 @@
 com\musicmanager\service\impl\UserServiceImpl.class
 com\musicmanager\service\MusicListService.class
+com\musicmanager\service\LoginService.class
 com\musicmanager\service\MusicCategoryService.class
 com\musicmanager\service\UserService.class
 com\musicmanager\service\impl\MusicCategoryServiceImpl.class
 com\musicmanager\service\MusicService.class
+com\musicmanager\service\impl\Impl.class
 utils\GsonUtils.class
+com\musicmanager\service\impl\LoginServiceImpl.class
 com\musicmanager\service\impl\MusicListImpl.class
 com\musicmanager\service\impl\MusicServiceImpl.class

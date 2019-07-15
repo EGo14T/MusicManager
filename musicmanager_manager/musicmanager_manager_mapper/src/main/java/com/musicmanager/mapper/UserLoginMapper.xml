@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.musicmanager.mapper.MusicMapper" >
-  <resultMap id="BaseResultMap" type="com.musicmanager.pojo.Music" >
+<mapper namespace="com.musicmanager.mapper.UserLoginMapper" >
+  <resultMap id="BaseResultMap" type="com.musicmanager.pojo.UserLogin" >
     <id column="id" property="id" jdbcType="INTEGER" />
-    <result column="name" property="name" jdbcType="VARCHAR" />
-    <result column="singer" property="singer" jdbcType="VARCHAR" />
-    <result column="album" property="album" jdbcType="VARCHAR" />
-    <result column="length" property="length" jdbcType="VARCHAR" />
-    <result column="love" property="love" jdbcType="SMALLINT" />
-    <result column="music_list_id" property="musicListId" jdbcType="INTEGER" />
+    <result column="userName" property="username" jdbcType="VARCHAR" />
+    <result column="userPassword" property="userpassword" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -69,15 +65,15 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    id, name, singer, album, length, love, music_list_id
+    id, userName, userPassword
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.musicmanager.pojo.MusicExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.musicmanager.pojo.UserLoginExample" >
     select
     <if test="distinct" >
       distinct
     </if>
     <include refid="Base_Column_List" />
-    from music
+    from user_login
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
@@ -88,105 +84,67 @@
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
-    from music
+    from user_login
     where id = #{id,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
-    delete from music
+    delete from user_login
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <delete id="deleteByExample" parameterType="com.musicmanager.pojo.MusicExample" >
-    delete from music
+  <delete id="deleteByExample" parameterType="com.musicmanager.pojo.UserLoginExample" >
+    delete from user_login
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.musicmanager.pojo.Music" >
-    insert into music (id, name, singer, 
-      album, length, love, 
-      music_list_id)
-    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{singer,jdbcType=VARCHAR}, 
-      #{album,jdbcType=VARCHAR}, #{length,jdbcType=VARCHAR}, #{love,jdbcType=SMALLINT}, 
-      #{musicListId,jdbcType=INTEGER})
+  <insert id="insert" parameterType="com.musicmanager.pojo.UserLogin" >
+    insert into user_login (id, userName, userPassword
+      )
+    values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{userpassword,jdbcType=VARCHAR}
+      )
   </insert>
-  <insert id="insertSelective" parameterType="com.musicmanager.pojo.Music" >
-    insert into music
+  <insert id="insertSelective" parameterType="com.musicmanager.pojo.UserLogin" >
+    insert into user_login
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
         id,
       </if>
-      <if test="name != null" >
-        name,
+      <if test="username != null" >
+        userName,
       </if>
-      <if test="singer != null" >
-        singer,
-      </if>
-      <if test="album != null" >
-        album,
-      </if>
-      <if test="length != null" >
-        length,
-      </if>
-      <if test="love != null" >
-        love,
-      </if>
-      <if test="musicListId != null" >
-        music_list_id,
+      <if test="userpassword != null" >
+        userPassword,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="id != null" >
         #{id,jdbcType=INTEGER},
       </if>
-      <if test="name != null" >
-        #{name,jdbcType=VARCHAR},
+      <if test="username != null" >
+        #{username,jdbcType=VARCHAR},
       </if>
-      <if test="singer != null" >
-        #{singer,jdbcType=VARCHAR},
-      </if>
-      <if test="album != null" >
-        #{album,jdbcType=VARCHAR},
-      </if>
-      <if test="length != null" >
-        #{length,jdbcType=VARCHAR},
-      </if>
-      <if test="love != null" >
-        #{love,jdbcType=SMALLINT},
-      </if>
-      <if test="musicListId != null" >
-        #{musicListId,jdbcType=INTEGER},
+      <if test="userpassword != null" >
+        #{userpassword,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.musicmanager.pojo.MusicExample" resultType="java.lang.Integer" >
-    select count(*) from music
+  <select id="countByExample" parameterType="com.musicmanager.pojo.UserLoginExample" resultType="java.lang.Integer" >
+    select count(*) from user_login
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </select>
   <update id="updateByExampleSelective" parameterType="map" >
-    update music
+    update user_login
     <set >
       <if test="record.id != null" >
         id = #{record.id,jdbcType=INTEGER},
       </if>
-      <if test="record.name != null" >
-        name = #{record.name,jdbcType=VARCHAR},
+      <if test="record.username != null" >
+        userName = #{record.username,jdbcType=VARCHAR},
       </if>
-      <if test="record.singer != null" >
-        singer = #{record.singer,jdbcType=VARCHAR},
-      </if>
-      <if test="record.album != null" >
-        album = #{record.album,jdbcType=VARCHAR},
-      </if>
-      <if test="record.length != null" >
-        length = #{record.length,jdbcType=VARCHAR},
-      </if>
-      <if test="record.love != null" >
-        love = #{record.love,jdbcType=SMALLINT},
-      </if>
-      <if test="record.musicListId != null" >
-        music_list_id = #{record.musicListId,jdbcType=INTEGER},
+      <if test="record.userpassword != null" >
+        userPassword = #{record.userpassword,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -194,50 +152,30 @@
     </if>
   </update>
   <update id="updateByExample" parameterType="map" >
-    update music
+    update user_login
     set id = #{record.id,jdbcType=INTEGER},
-      name = #{record.name,jdbcType=VARCHAR},
-      singer = #{record.singer,jdbcType=VARCHAR},
-      album = #{record.album,jdbcType=VARCHAR},
-      length = #{record.length,jdbcType=VARCHAR},
-      love = #{record.love,jdbcType=SMALLINT},
-      music_list_id = #{record.musicListId,jdbcType=INTEGER}
+      userName = #{record.username,jdbcType=VARCHAR},
+      userPassword = #{record.userpassword,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.musicmanager.pojo.Music" >
-    update music
+  <update id="updateByPrimaryKeySelective" parameterType="com.musicmanager.pojo.UserLogin" >
+    update user_login
     <set >
-      <if test="name != null" >
-        name = #{name,jdbcType=VARCHAR},
+      <if test="username != null" >
+        userName = #{username,jdbcType=VARCHAR},
       </if>
-      <if test="singer != null" >
-        singer = #{singer,jdbcType=VARCHAR},
-      </if>
-      <if test="album != null" >
-        album = #{album,jdbcType=VARCHAR},
-      </if>
-      <if test="length != null" >
-        length = #{length,jdbcType=VARCHAR},
-      </if>
-      <if test="love != null" >
-        love = #{love,jdbcType=SMALLINT},
-      </if>
-      <if test="musicListId != null" >
-        music_list_id = #{musicListId,jdbcType=INTEGER},
+      <if test="userpassword != null" >
+        userPassword = #{userpassword,jdbcType=VARCHAR},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.musicmanager.pojo.Music" >
-    update music
-    set name = #{name,jdbcType=VARCHAR},
-      singer = #{singer,jdbcType=VARCHAR},
-      album = #{album,jdbcType=VARCHAR},
-      length = #{length,jdbcType=VARCHAR},
-      love = #{love,jdbcType=SMALLINT},
-      music_list_id = #{musicListId,jdbcType=INTEGER}
+  <update id="updateByPrimaryKey" parameterType="com.musicmanager.pojo.UserLogin" >
+    update user_login
+    set userName = #{username,jdbcType=VARCHAR},
+      userPassword = #{userpassword,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>

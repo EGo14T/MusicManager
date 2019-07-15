@@ -46,7 +46,6 @@
 
 <table id="dg"></table>
 <script type="text/javascript">
-
     $(function () {
 
         var songList = [];
@@ -66,7 +65,7 @@
                 obj.cover = "<%=basePath%>images/"+item["id"]+".png";
                 songList.push(obj);
             });
-console.log(songList);
+                console.log(songList);
         });
 
         $('#dg').datagrid({
@@ -159,7 +158,6 @@ console.log(songList);
         });
 
     });
-
 </script>
 </body>
 </html>

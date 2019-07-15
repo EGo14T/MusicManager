@@ -5,3 +5,4 @@ com\musicmanager\controller\MusicListController.class
 com\musicmanager\controller\MusicController.class
 com\musicmanager\controller\UserController.class
 com\musicmanager\controller\LoveMusicController.class
+com\musicmanager\controller\LoginController.class
