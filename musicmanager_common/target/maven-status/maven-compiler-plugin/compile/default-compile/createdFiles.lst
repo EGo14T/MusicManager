@@ -2,4 +2,5 @@ pojo\MusicList.class
 pojo\ResponseJsonResult.class
 utils\HttpClientUtil.class
 pojo\EasyUITree.class
+pojo\UserLogin.class
 pojo\EasyGrid.class

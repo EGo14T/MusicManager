@@ -4,6 +4,7 @@ import com.musicmanager.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import pojo.ResponseJsonResult;
 
 /**
@@ -17,13 +18,9 @@ public class LoginController {
 
 
     @RequestMapping("/loginRequest")
-    public ResponseJsonResult Login(String name, String password){
-
-
-
-        System.out.println(name);
-        System.out.println(password);
-        ResponseJsonResult responseJsonResult = loginService.Login(name, password);
+    @ResponseBody
+    public ResponseJsonResult Login(String username, String password){
+        ResponseJsonResult responseJsonResult = loginService.Login(username, password);
         return responseJsonResult;
     }
 }

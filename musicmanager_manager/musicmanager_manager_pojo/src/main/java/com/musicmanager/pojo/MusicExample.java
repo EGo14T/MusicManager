@@ -503,66 +503,6 @@ public class MusicExample {
             addCriterion("love not between", value1, value2, "love");
             return (Criteria) this;
         }
-
-        public Criteria andMusicListIdIsNull() {
-            addCriterion("music_list_id is null");
-            return (Criteria) this;
-        }
-
-        public Criteria andMusicListIdIsNotNull() {
-            addCriterion("music_list_id is not null");
-            return (Criteria) this;
-        }
-
-        public Criteria andMusicListIdEqualTo(Integer value) {
-            addCriterion("music_list_id =", value, "musicListId");
-            return (Criteria) this;
-        }
-
-        public Criteria andMusicListIdNotEqualTo(Integer value) {
-            addCriterion("music_list_id <>", value, "musicListId");
-            return (Criteria) this;
-        }
-
-        public Criteria andMusicListIdGreaterThan(Integer value) {
-            addCriterion("music_list_id >", value, "musicListId");
-            return (Criteria) this;
-        }
-
-        public Criteria andMusicListIdGreaterThanOrEqualTo(Integer value) {
-            addCriterion("music_list_id >=", value, "musicListId");
-            return (Criteria) this;
-        }
-
-        public Criteria andMusicListIdLessThan(Integer value) {
-            addCriterion("music_list_id <", value, "musicListId");
-            return (Criteria) this;
-        }
-
-        public Criteria andMusicListIdLessThanOrEqualTo(Integer value) {
-            addCriterion("music_list_id <=", value, "musicListId");
-            return (Criteria) this;
-        }
-
-        public Criteria andMusicListIdIn(List<Integer> values) {
-            addCriterion("music_list_id in", values, "musicListId");
-            return (Criteria) this;
-        }
-
-        public Criteria andMusicListIdNotIn(List<Integer> values) {
-            addCriterion("music_list_id not in", values, "musicListId");
-            return (Criteria) this;
-        }
-
-        public Criteria andMusicListIdBetween(Integer value1, Integer value2) {
-            addCriterion("music_list_id between", value1, value2, "musicListId");
-            return (Criteria) this;
-        }
-
-        public Criteria andMusicListIdNotBetween(Integer value1, Integer value2) {
-            addCriterion("music_list_id not between", value1, value2, "musicListId");
-            return (Criteria) this;
-        }
     }
 
     public static class Criteria extends GeneratedCriteria {
