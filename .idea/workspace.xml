@@ -10,25 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb3f32d3-a5a5-4ca3-bdea-986c3a3e5caf" name="默认的" comment="Login实现">
-      <change afterPath="$PROJECT_DIR$/musicmanager_common/src/main/java/pojo/UserLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_common/target/musicmanager_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_common/target/musicmanager_common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/src/main/java/com/musicmanager/mapper/MusicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/src/main/java/com/musicmanager/mapper/MusicMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/src/main/java/com/musicmanager/mapper/MusicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/src/main/java/com/musicmanager/mapper/MusicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/target/classes/com/musicmanager/mapper/MusicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/target/classes/com/musicmanager/mapper/MusicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/src/main/java/com/musicmanager/pojo/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/src/main/java/com/musicmanager/pojo/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/src/main/java/com/musicmanager/pojo/MusicExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/src/main/java/com/musicmanager/pojo/MusicExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/Music.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo/target/classes/com/musicmanager/pojo/MusicExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/java/com/musicmanager/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+            <state relative-caret-position="297">
+              <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -93,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/impl/LoginServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="25" column="87" lean-forward="true" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+            <state relative-caret-position="290">
+              <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -320,8 +302,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="643" />
-    <option name="y" value="81" />
+    <option name="x" value="357" />
+    <option name="y" value="40" />
     <option name="width" value="1333" />
     <option name="height" value="1052" />
   </component>
@@ -654,7 +636,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563266090102" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563270478778" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="D:/SSH" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -1038,7 +1020,7 @@
       <workItem from="1562292077754" duration="1003000" />
       <workItem from="1563153172211" duration="3133000" />
       <workItem from="1563158793299" duration="12574000" />
-      <workItem from="1563236542886" duration="18097000" />
+      <workItem from="1563236542886" duration="21344000" />
     </task>
     <task id="LOCAL-00001" summary="基于SSM框架的Java项目（IDEA）">
       <created>1554200810366</created>
@@ -1334,11 +1316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563185012617</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Login实现">
+      <created>1563266116337</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1563266116337</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="466134000" />
+    <option name="totallyTimeSpent" value="469381000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1353,7 +1342,7 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49688148" visible="true" weight="0.195629" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49688148" visible="true" weight="0.195629" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.20788912" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1364,13 +1353,13 @@
       <window_info id="Designer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.28170478" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.55490404" visible="true" weight="0.25467774" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.55490404" weight="0.25363827" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.521855" weight="0.3846154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.57569295" weight="0.32952183" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.73745173" weight="0.4261954" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.44509596" side_tool="true" weight="0.5093555" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.44509596" side_tool="true" visible="true" weight="0.25363827" />
       <window_info anchor="bottom" id="检验" order="9" sideWeight="0.49946696" weight="0.32985386" />
       <window_info anchor="bottom" id="运行" order="10" />
       <window_info anchor="bottom" id="找到" order="11" weight="0.3295711" />
@@ -1873,13 +1862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_mapper/src/main/java/com/musicmanager/mapper/MusicMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
@@ -1927,11 +1909,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service/src/main/java/com/musicmanager/service/impl/LoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="25" column="87" lean-forward="true" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+        <state relative-caret-position="290">
+          <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
     </entry>
