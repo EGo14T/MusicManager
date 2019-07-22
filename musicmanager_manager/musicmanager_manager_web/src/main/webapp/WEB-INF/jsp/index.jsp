@@ -10,8 +10,14 @@
     String path = request.getContextPath();
     String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
+<meta http-equiv="Expires" CONTENT="0">
+
+<meta http-equiv="Cache-Control" CONTENT="no-cache">
+
+<meta http-equiv="Pragma" CONTENT="no-cache">
 <html>
 <head>
+
     <base href="<%=basePath%>">
     <title>昕音乐</title>
     <link rel="stylesheet" type="text/css" href="<%=basePath%>css/themes/default/easyui.css">
@@ -34,7 +40,9 @@
 <!--顶层布局-->
 
 <div data-options="region:'north'" style="height:100px;">
-    <a class="login" href="/login">登陆</a>
+    <div>
+        <a class="login" href="/login">登陆</a>
+    </div>
 
 </div>
 
@@ -48,7 +56,8 @@
                 <dl class="layui-nav-child">
                     <dd onclick="addtabs('music_cat_list','音乐分类')"><a href="JavaScript:";>音乐分类</a></dd>
                     <dd onclick="addtabs('music_list','音乐列表')"><a href="JavaScript:";>音乐列表</a></dd>
-                    <dd><a onclick="addtabs()">我的收藏</a></dd>
+                    <dd><a onclick="refreshFunction()">我的收藏</a></dd>
+                    <dd><a onclick="refreshFunction1()">我的收藏</a></dd>
                 </dl>
             </li>
         </ul>
@@ -56,9 +65,9 @@
 </div>
 
 
-<div data-options="region:'center'">
+<div data-options="region:'center'" id = "fff">
+    <div>fffffffffffffffffffff</div>
     <div id="tabs" class="easyui-tabs" showHeader="false"/>
-
     </div>
 
 </div>
@@ -69,6 +78,40 @@
 
 
 <script>
+
+    window.addEventListener("popstate", function(e) {
+        //alert("我监听到了浏览器的返回按钮事件啦");//根据自己的需求实现自己的功能
+       // window.document.referrer;
+    }, false);
+
+    function refreshFunction(){
+        console.log(window.history);
+        $.ajax({
+            type:'post',
+            url:'/hi',
+            dateType:'html',
+            data:{},
+            success:function (data) {
+                $('#fff').html(data);
+                history.pushState('','',"/hi")
+            }
+        })
+    }
+
+    function refreshFunction1(){
+        var stateobj1={foo:"bar"};
+        console.log(window.history);
+        $.ajax({
+            type:'post',
+            url:'/hi1',
+            dateType:'html',
+            data:{},
+            success:function (data) {
+                $('#fff').html(data);
+                history.pushState('','',"/hi1")
+            }
+        })
+    }
 
 
     $('#tt').tree({
@@ -86,6 +129,7 @@
                 });
             }
         }
+
     });
 
     function addtabs(ura,te) {

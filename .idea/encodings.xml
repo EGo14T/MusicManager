@@ -7,17 +7,24 @@
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/all.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/index.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/search.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/themes/icons/download.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/themes/icons/love_off.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/css/themes/icons/love_on.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/APlayer.min.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/js/layer" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/friends.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/main.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/WEB-INF/jsp/mymusic.jsp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/1.lrc" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/1.mp3" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/1.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/2.mp3" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/3.mp3" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/4.mp3" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/images/topbar.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/layui" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/dialogs" charset="GBK" />
     <file url="file://$PROJECT_DIR$/musicmanager_manager/musicmanager_manager_web/src/main/webapp/ueditor/index.html" charset="GBK" />

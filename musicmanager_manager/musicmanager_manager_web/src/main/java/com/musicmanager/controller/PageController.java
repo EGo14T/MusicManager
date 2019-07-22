@@ -21,6 +21,4 @@ public class PageController {
     public String requestIndex(){
         return "index";
     }
-
-
 }
