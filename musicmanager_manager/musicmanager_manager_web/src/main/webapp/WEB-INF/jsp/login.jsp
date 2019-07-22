@@ -44,11 +44,11 @@
             if (data.status==200){
                 window.location.replace("index");
             }else if (data.status==400){
-                layer.msg('输入的密码错误，请重新输入', {
+                layer.msg('您输入的密码错误，请重新输入', {
                     time: 900
                 });
             }else if (data.status==404){
-                layer.msg('输入的用户名不存在，请重新输入', {
+                layer.msg('您输入的用户名不存在，请重新输入', {
                     time: 900
                 });
             }
